@@ -1,0 +1,829 @@
+.Bloque
+{
+    BORDER-RIGHT: #4d7097 1px solid;
+    BORDER-TOP: #4d7097 1px solid;
+    BACKGROUND: #dddddd;
+    BORDER-LEFT: #4d7097 1px solid;
+    BORDER-BOTTOM: #4d7097 1px solid;
+    FONT-FAMILY: "Verdana", "Helvetica", "sans-serif"
+}
+.Titulo
+{
+    FONT: bolder 17px 'Comic Sans MS';
+    COLOR: #4d7097
+}
+.TituloBorder
+{
+    BORDER-RIGHT: #59708a 1px solid;
+    BORDER-TOP: #59708a 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #59708a 1px solid;
+    WIDTH: 100%;
+    COLOR: white;
+    BORDER-BOTTOM: #59708a 1px solid;
+    FONT-FAMILY: "Verdana";
+    HEIGHT: 19px;
+    BACKGROUND-COLOR: #59708a;
+    TEXT-ALIGN: right;
+    TEXT-DECORATION: none
+}
+.Subtitulo
+{
+    FONT-SIZE: 75%;
+    PADDING-BOTTOM: 5px;
+    MARGIN: 0px;
+    COLOR: #535353;
+    PADDING-TOP: 5px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: "Verdana", "Helvetica", "sans-serif";
+    TEXT-ALIGN: right
+}
+.Cabecera
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 1em;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=135, Strength=2);
+    MARGIN: 10px 0px;
+    COLOR: #4d7097;
+    FONT-FAMILY: "Century Gothic", "Helvetica", "sans-serif";
+    HEIGHT: 20px
+}
+.Cabecera2
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 0.95em;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=135, Strength=1);
+    MARGIN: 10px 0px;
+    COLOR: #4d7097;
+    FONT-FAMILY: "Century Gothic", "Helvetica", "sans-serif";
+    HEIGHT: 16px
+}
+.CabeceraW
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 1em;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#FFFFFF', Direction=135, Strength=2);
+    MARGIN: 10px 0px;
+    COLOR: #4d7097;
+    FONT-FAMILY: "Century Gothic", "Helvetica", "sans-serif";
+    HEIGHT: 20px
+}
+.BloqueBlanco
+{
+    BORDER-RIGHT: #4d7097 1px solid;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: #4d7097 1px solid;
+    PADDING-LEFT: 10px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    BACKGROUND: #f4f9ff;
+    PADDING-BOTTOM: 15px;
+    MARGIN: 0px;
+    BORDER-LEFT: #4d7097 1px solid;
+    LINE-HEIGHT: 1.8em;
+    PADDING-TOP: 15px;
+    BORDER-BOTTOM: #4d7097 1px solid;
+    FONT-FAMILY: "Verdana", "Helvetica", "sans-serif"
+}
+.tituloTablaAzulClaro{
+ BORDER-RIGHT: #4d7097 1px solid;
+    PADDING-RIGHT: 10px;
+    FONT-SIZE: 11px;
+    BACKGROUND: #f4f9ff;
+    BORDER-BOTTOM: #4d7097 1px solid;
+	FONT-WEIGHT: bolder;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=135, Strength=1);
+    MARGIN: 0px;
+    COLOR: #4d7097;
+    FONT-FAMILY: "Century Gothic", "Helvetica", "sans-serif";
+    HEIGHT: 16px
+}
+
+.BloqueBlanco A
+{
+    COLOR: #000095;
+    BORDER-BOTTOM: #000095 1px dotted;
+    TEXT-DECORATION: none
+}
+.BloqueBlanco A:hover
+{
+    COLOR: #000095;
+    BORDER-BOTTOM: navy 1px solid;
+    BACKGROUND-COLOR: #d0bab9;
+    TEXT-DECORATION: none
+}
+.SumarioEncabezado
+{
+	background-color:#DDDDDD;
+	color:#535353;
+	font-family:"Verdana";
+	font-size:11px;
+	font-weight:bolder
+
+}
+.SumarioNormal
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #f4f9ff;
+    TEXT-ALIGN: left
+}
+.txtSumEncabezado
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #535353;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #ECE6E6;
+}
+.txtSumEncabezadoBlanco
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #535353;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #ffffff
+}
+.txtSumNormalWhite
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9px;
+    COLOR: #4698df;
+    FONT-FAMILY: "Verdana"
+}
+.txtSumSelect
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9px;
+    COLOR: #f4f9ff;
+    BACKGROUND-COLOR: #4698df;
+    FONT-FAMILY: "Verdana"
+}
+.txtSumNormal
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    COLOR: #4d7097;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #f4f9ff
+}
+.txtSumLightWhite
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #4698df;
+    FONT-FAMILY: "Verdana"
+}
+.txtSumLight
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #4d7097;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #f4f9ff
+}
+.txtSumNormalTabla
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    COLOR: #4d7097;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #f4f9ff
+}
+.menu
+{
+    BORDER-TOP: #4d7097 1px solid;
+    MARGIN: 5px 0px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #4d7097 1px solid
+}
+.menu .left
+{
+    WIDTH: 35%;
+    TEXT-ALIGN: left
+}
+.menu .right
+{
+    WIDTH: 65%;
+    TEXT-ALIGN: right
+}
+.menu A
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 65%;
+    MARGIN: 0px 10px;
+    COLOR: #000095;
+    FONT-FAMILY: "Verdana", "Helvetica", "sans-serif";
+    TEXT-DECORATION: none
+}
+.menu A:visited
+{
+    COLOR: #000095
+}
+.menu A:hover
+{
+    TEXT-DECORATION: underline
+}
+.Over
+{
+    FONT-SIZE: 11px;
+    COLOR: #f4f9ff;
+    FONT-FAMILY: "Verdana", "Tahoma";
+    BACKGROUND-COLOR: #147fb5;
+    TEXT-ALIGN: left
+}
+.Out
+{
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 1px;
+    MARGIN-BOTTOM: 2px;
+    PADDING-BOTTOM: 1px;
+    FONT: bold 12px "Verdana","Tahoma";
+    WIDTH: 100%;
+    CURSOR: pointer;
+    COLOR: #4d7097;
+    PADDING-TOP: 1px;
+    BACKGROUND-COLOR: #f4f9ff
+}
+TABLE.sortable A.sortheader
+{
+    DISPLAY: block;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    COLOR: #535353;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #dddddd;
+    TEXT-DECORATION: none
+}
+TABLE.sortable SPAN.sortarrow
+{
+    COLOR: #535353;
+    BACKGROUND-COLOR: #dddddd;
+    TEXT-DECORATION: none
+}
+.InputB
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0pt;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 150px;
+    LINE-HEIGHT: 20px;
+    PADDING-TOP: 0pt;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: ,"Tahoma","Verdana";
+    HEIGHT: 20px;
+    padding-right-value: 0.2em;
+    padding-left-value: 0.2em
+}
+.InputC
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0pt;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 40px;
+    LINE-HEIGHT: 20px;
+    PADDING-TOP: 0pt;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: ,"Tahoma","Verdana";
+    HEIGHT: 20px;
+    padding-right-value: 0.2em;
+    padding-left-value: 0.2em
+}
+.InputD
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 0pt;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 100px;
+    CURSOR: pointer;
+    COLOR: #4d7097;
+    LINE-HEIGHT: 20px;
+    PADDING-TOP: 0pt;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: "Verdana";
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #f4f9ff;
+    TEXT-ALIGN: center;
+    padding-right-value: 0.2em;
+    padding-left-value: 0.2em
+}
+.InputE
+{
+      BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0pt;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 150px;
+    LINE-HEIGHT: 20px;
+    PADDING-TOP: 0pt;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: ,"Tahoma","Verdana";
+    HEIGHT: 50px;
+    padding-right-value: 0.2em;
+    padding-left-value: 0.2em
+}
+
+.DatoEntrada
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: navy;
+    FONT-FAMILY: "Verdana","Helvetica";
+    BACKGROUND-COLOR: #f4f9ff;
+    TEXT-ALIGN: left
+}
+.txtBlanco
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    MARGIN: 0px;
+    FONT-FAMILY: "Verdana","Helvetica";
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: left
+}
+.txtVerde
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    MARGIN: 0px;
+    COLOR: #147fb5;
+    FONT-FAMILY: "Verdana","Helvetica";
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: left
+}
+.txtSumEncabezadoSombra
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-RIGHT: 1px solid;
+    FONT-WEIGHT: normal;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 11px;
+    COLOR: #535353;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: "Verdana","Helvetica";
+    BACKGROUND-COLOR: #f4f9ff
+}
+.txtSumNormalSombra
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-RIGHT: 1px solid;
+    FONT-WEIGHT: bolder;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 11px;
+    COLOR: #4d7097;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: "Verdana","Helvetica";
+    BACKGROUND-COLOR: #f4f9ff
+}
+.SumarioEncabezadoSombra
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-RIGHT: 1px solid;
+    FONT-WEIGHT: bolder;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 11px;
+    COLOR: #535353;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: "Verdana","Helvetica";
+    BACKGROUND-COLOR: #dddddd
+}
+.menuActivo
+{
+    BORDER-RIGHT: #aaaacc 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: #aaaacc 1px solid;
+    PADDING-LEFT: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=90, Strength=2);
+    BORDER-BOTTOM-WIDTH: 0px;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: #aaaacc 1px solid;
+    WIDTH: 100%;
+    CURSOR: pointer;
+    COLOR: #4d7097;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: "Century Gothic","Verdana";
+    HEIGHT: 28px;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center;
+    valign: middle
+}
+.menuInactivo
+{
+    BORDER-TOP-WIDTH: 0px;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 13px;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=90, Strength=2);
+    PADDING-BOTTOM: 0px;
+    WIDTH: 100%;
+    CURSOR: pointer;
+    COLOR: #535353;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #aaaacc 1px solid;
+    FONT-FAMILY: "Century Gothic", "Verdana";
+    HEIGHT: 19px;
+    BACKGROUND-COLOR: #dddddd;
+    TEXT-ALIGN: center;
+    BORDER-RIGHT-WIDTH: 0px;
+    valign: middle
+}
+.menuInactivoDeshab
+{
+    BORDER-TOP-WIDTH: 0px;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 13px;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=90, Strength=2);
+    PADDING-BOTTOM: 0px;
+    WIDTH: 100%;
+    CURSOR: default;
+    COLOR: #888888;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #aaaacc 1px solid;
+    FONT-FAMILY: "Century Gothic", "Verdana";
+    HEIGHT: 19px;
+    BACKGROUND-COLOR: #dddddd;
+    TEXT-ALIGN: center;
+    BORDER-RIGHT-WIDTH: 0px;
+    valign: middle
+}
+.filtro
+{
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=135, Strength=2);
+    HEIGHT: 18px
+}
+.ligaClick
+{
+    BORDER-RIGHT: #aaaacc 1px solid;
+    BORDER-TOP: #aaaacc 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=90, Strength=2);
+    BORDER-BOTTOM-WIDTH: 0px;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: #aaaacc 1px solid;
+    WIDTH: 100%;
+    CURSOR: pointer;
+    COLOR: #4d7097;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: "Verdana";
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center;
+    valign: middle
+}
+.ligaNoCLick
+{
+    BORDER-TOP-WIDTH: 0px;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 11px;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=90, Strength=2);
+    PADDING-BOTTOM: 0px;
+    WIDTH: 100%;
+    CURSOR: pointer;
+    COLOR: #535353;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #aaaacc 1px solid;
+    FONT-FAMILY: "Verdana";
+    HEIGHT: 16px;
+    BACKGROUND-COLOR: #e4e9ee;
+    TEXT-ALIGN: center;
+    BORDER-RIGHT-WIDTH: 0px;
+    valign: middle
+}
+.ligaNoCLickDeshab
+{
+    BORDER-TOP-WIDTH: 0px;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 11px;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=90, Strength=2);
+    PADDING-BOTTOM: 0px;
+    WIDTH: 100%;
+    CURSOR: pointer;
+    COLOR: #999999;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #aaaacc 1px solid;
+    FONT-FAMILY: "Verdana";
+    HEIGHT: 16px;
+    BACKGROUND-COLOR: #e4e9ee;
+    TEXT-ALIGN: center;
+    BORDER-RIGHT-WIDTH: 0px;
+    valign: middle
+}
+.filtroOpcion
+{
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=135, Strength=1);
+    HEIGHT: 13px;
+    margin-top: 0px;
+   
+    FONT-SIZE: 10pt;
+}
+.margenDatos
+{
+    MARGIN: 5px 10px
+}
+.margenMain
+{
+    MARGIN: 0px 5px
+}
+.botonActivo
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 130px;
+    CURSOR: pointer;
+    COLOR: white;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: "Tahoma","Verdana";
+    HEIGHT: 24px;
+    BACKGROUND-COLOR: #147fb5
+}
+.botonInactivo
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 130px;
+    CURSOR: pointer;
+    COLOR: #147fb5;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: "Tahoma","Verdana";
+    HEIGHT: 24px;
+    BACKGROUND-COLOR: #e4e9ee
+}
+.botonInactivoDeshab
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 130px;
+    CURSOR: default;
+    COLOR: #aaaaaa;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: "Tahoma","Verdana";
+    HEIGHT: 24px;
+    BACKGROUND-COLOR: #e4e9ee
+}
+.botonActInactivo
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 112px;
+    CURSOR: pointer;
+    COLOR: #147fb5;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: "Tahoma","Verdana";
+    HEIGHT: 22px;
+    BACKGROUND-COLOR: #e4e9ee
+}
+.botonActActivo
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 112px;
+    CURSOR: pointer;
+    COLOR: white;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: "Tahoma","Verdana";
+    HEIGHT: 22px;
+    BACKGROUND-COLOR: #147fb5
+}
+.InputB
+{
+    BORDER-RIGHT: #6699ff 1px solid;
+    BORDER-TOP: #6699ff 1px solid;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0pt;
+    BORDER-LEFT: #6699ff 1px solid;
+    WIDTH: 150px;
+    LINE-HEIGHT: 20px;
+    PADDING-TOP: 0pt;
+    BORDER-BOTTOM: #6699ff 1px solid;
+    FONT-FAMILY: "Tahoma","Verdana";
+    HEIGHT: 20px;
+    padding-right-value: 0.2em;
+    padding-left-value: 0.2em
+}
+.Tarjeta
+{
+    BORDER-RIGHT: #aaaacc 1px solid;
+    BORDER-TOP: #aaaacc 0px solid;
+    DISPLAY: none;
+    MARGIN-BOTTOM: 0px;
+    MARGIN-LEFT: 0px;
+    OVERFLOW: hidden;
+    BORDER-LEFT: #aaaacc 1px solid;
+    WIDTH: 100%;
+    MARGIN-RIGHT: 0px;
+    BORDER-BOTTOM: #aaaacc 1px solid;
+    POSITION: relative;
+    HEIGHT: 363px;
+    BACKGROUND-COLOR: white
+}
+.TarjetaMenu
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    DISPLAY: none;
+    MARGIN-BOTTOM: 0px;
+    OVERFLOW: hidden;
+    BORDER-LEFT: 0px;
+    WIDTH: 100%;
+    MARGIN-RIGHT: 0px;
+    BORDER-BOTTOM: 0px;
+    POSITION: relative;
+    HEIGHT: 400px;
+    BACKGROUND-COLOR: white
+}
+.bordeDatos
+{
+    BORDER-RIGHT: #aaaacc 1px solid;
+    BORDER-TOP: #aaaacc 0px solid;
+    MARGIN: 0px 1px 3px;
+    BORDER-LEFT: #aaaacc 1px solid;
+    WIDTH: 100%;
+    BORDER-BOTTOM: #aaaacc 1px solid;
+    align: center
+}
+.bordeParametros
+{
+    BORDER-RIGHT: #aaaacc 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: #aaaacc 0px solid;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px 1px;
+    BORDER-LEFT: #aaaacc 1px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #aaaacc 0px solid
+}
+.BloqueError
+{
+    BORDER-RIGHT: #aaaacc 1px solid;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: #aaaacc 1px solid;
+    PADDING-LEFT: 10px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 12px;
+    MARGIN: 10px;
+    BORDER-LEFT: #aaaacc 1px solid;
+    COLOR: #999999;
+    LINE-HEIGHT: 1em;
+    PADDING-TOP: 12px;
+	BORDER-BOTTOM: #aaaacc 1px solid;
+    FONT-FAMILY: "Verdana", "Helvetica", "sans-serif"
+}
+.BloqueErrorEspera
+{
+    BORDER-RIGHT: #aaaacc 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #aaaacc 1px solid;
+    PADDING-LEFT: 3px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 15px;
+    PADDING-BOTTOM: 5px;
+    MARGIN: 10px;
+    BORDER-LEFT: #aaaacc 1px solid;
+    COLOR: #999999;
+    LINE-HEIGHT: 1em;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: #aaaacc 1px solid;
+    FONT-FAMILY: "Verdana", "Helvetica", "sans-serif";
+}
+.CabeceraEspera
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 1em;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=135, Strength=2);
+    COLOR: #4d7097;
+    FONT-FAMILY: "Century Gothic", "Helvetica", "sans-serif";
+    HEIGHT: 19px
+}
+.renglon_claro {
+	FONT-WEIGHT: normal;
+    font-family: verdana;
+	color:#535353;
+	font-size: 11px;
+	background-color: #FFFEFA;
+}
+
+.renglon_obscuro{
+    FONT-SIZE: 11px;
+    COLOR: #4d7097;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #f4f9ff
+	
+}
+.rojo{
+	color: #FF0000;
+	font-weight: bold;
+	}
+.alerta{
+    FONT-SIZE: 11px;
+    COLOR: #FF0000;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #f4f9ff
+	}
+.bordes_tablas {
+	background-color: #A9BBC5;
+}
+.bordescaja {
+	border:1px solid #0000FF; 
+    font-size:8pt;
+    font-family: Verdana;
+    font-weight: normal
+}
+body
+{
+    margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    scrollbar-face-color: #beccdc;
+    scrollbar-shadow-color: #ffffff;
+    scrollbar-3dlight-color: #000000;
+    scrollbar-arrow-color: #000000;
+    scrollbar-darkshadow-color: #000000;
+}
+
+.Segmento {
+	font-family: Tahoma,sans-serif;
+	font-weight: bold;
+	font-size: 9pt;
+	background-color: #1a96d2;
+	color: #FFFFFF;
+	height: 22px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #6699ff;
+	border-right-color: #6699ff;
+	border-bottom-color: #6699ff;
+	border-left-color: #6699ff;
+}
+
+.OverProm
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    MARGIN: 0px;
+    COLOR: #f4f9ff;
+    FONT-FAMILY: "Verdana","Helvetica";
+    BACKGROUND-COLOR: #147fb5;
+    TEXT-ALIGN: left
+}
+
+.CabeceraEspera
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=135, Strength=2);
+    COLOR: #4d7097;
+    FONT-FAMILY: "Century Gothic", "Helvetica", "sans-serif";
+    HEIGHT: 20px
+}

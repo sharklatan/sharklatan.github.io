@@ -1,0 +1,957 @@
+Package: com.allan.tron
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.spark.snowboard
+Filename: deb/com.allan.tron_1.0_iphoneos-arm.deb
+Size: 1752016
+MD5sum: e3ec25e7314ca88828ad708100a5049d
+SHA1: a9c6ba981cb8817882d32d19f3b6b106939eebcb
+SHA256: 013bd4f4230bbc09c7140c06096475f7b2d0ebd280df907eac228c117b20b950
+Section: Themes
+Description: Image de la película TRON en 50 icons.
+Author: Urbina Rivera <alanurb@hotmail.com
+Depiction: https://sharklatan.github.io/cydia/info.html?id=com.allan.tron
+Name: TRON
+
+Package: com.sharklatan.icleanerpatch
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: deb/com.sharklatan.icleanerpatch_1.0_iphoneos-arm.deb
+Size: 3484268
+MD5sum: 7ee5de560f54ac17438b86b1a7a28dad
+SHA1: f2ecab0808c219162a0e769e9696377e80e576f5
+SHA256: d04ac57b0565659c3002e4b26629dc3acc4ce7301353dc430367c7b75ad7af28
+Section: Shark
+Description: Patch iCleaner Pro to Full
+Author: SharkLatan <sharklatan@gmail.com>
+Name: Patch iCleaner Pro
+
+Package: com.sharklatan.repo
+Version: 1.0-b1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Depends: firmware (>= 11.2), perl, git, ws.hbang.newterm2
+Filename: deb/com.sharklatan.repo_1.0-b1_iphoneos-arm.deb
+Size: 211028
+MD5sum: a95e466093b3f83bca5099a9fa994363
+SHA1: 0784c1cf917f795dee894d09bfc4efe4911bf80b
+SHA256: 6f17cbba08258404969bc98ac676f9167323c2b02d7d0b4f7b2d0ab48da7674a
+Section: System
+Description: All Packages for create Cydia Repo
+Author: SharkLatan
+Name: Cydia Build Repo
+
+Package: com.sharklatan.repo
+Version: 1.0-b2
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Depends: firmware (>= 11.2), perl, git, ws.hbang.newterm2
+Filename: deb/com.sharklatan.repo_1.0-b2_iphoneos-arm.deb
+Size: 211128
+MD5sum: ee23f574234eaf6981c8122762f61e0a
+SHA1: fc90bde8e2439a2207fa9a9550958d2c4c19dd14
+SHA256: 8af63968caacd88c04cd8becdd70913d2a68c59cebefbd74e8412b07cadce64f
+Section: System
+Description: All Packages for create Cydia Repo
+Author: SharkLatan
+Name: Cydia Build Repo
+
+Package: io.atwiiks.betterccxi
+Version: 1.3.9
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 320
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Filename: deb/io.atwiiks.betterccxi_1.3.9_iphoneos-arm.deb
+Size: 48600
+MD5sum: 131a16d8dc6736def37249dcc3b72489
+SHA1: b679343e15fcf8fc69b8beb72eefabadb825a625
+SHA256: 2ba2bf6f7a347e3ac9e31457cd4221181e2d191d20bbd03ac96afa4fc1c9721d
+Section: Tweaks Pagados
+Description: Enhance your control center on iOS 11
+Author: ATWiiks
+Name: BetterCCXI
+
+Package: io.coolstar.classicfolders2
+Version: 2.1.3
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 2712
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), ldid
+Conflicts: org.coolstar.classicfolders
+Filename: deb/io.coolstar.classicfolders2_2.1.3_iphoneos-arm.deb
+Size: 1772914
+MD5sum: 90198d018687f97edce6cdc521cd0889
+SHA1: b89655f5c42b3de061b104dbc365d73e8c6dd563
+SHA256: fa3bf429fef5e923ddb220ef293c79bb92a00a5c5b6d085b65266b4f5d2dc3c7
+Section: Tweaks Pagados
+Description: Bring back iOS 6 folders to iOS 8 - 11!
+Tag: cydia::commercial, purpose::extension, role::enduser, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: CoolStar & Jeremy Goulet <coolstarorganization@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Dev: coolstar
+Name: ClassicFolders 2
+
+Package: io.dodgraphics.midevice
+Version: 0.0.1-6+debug
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 540
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, com.chpwn.iconsupport, org.thebigboss.libcolorpicker
+Filename: deb/io.dodgraphics.midevice_0.0.1-6+debug_iphoneos-arm.deb
+Size: 155840
+MD5sum: 424334b8a4dd740e82bb9a303e5beaba
+SHA1: 81ba752a188371dfd77ba0e575257cb810534865
+SHA256: d865dfaf55418232d878807f49b5f856151ac2c4b3dca4edd04e2a391ca7bf7c
+Section: Tweaks Pagados
+Description: An awesome MobileSubstrate tweak!
+Author: DODGraphics
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: MiDevice
+
+Package: io.f0u4d.onlinenotify
+Version: 2.3.19
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 1613
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap, com.f0u4d.watusitools (>= 1.4.11)
+Conflicts: com.f0u4d.onlinenotifybeta, com.f0u4d.onlinenotify2, com.imokhles.waquickreply.bb
+Filename: deb/io.f0u4d.onlinenotify_2.3.19_iphoneos-arm.deb
+Size: 363744
+MD5sum: 9b947d581577344534fb3d708f73e5f9
+SHA1: 2331a7664c82b7cab4b7720a26be2c49df9b2258
+SHA256: ac52636a767939d41bbe5b918336e52ce9576ed5760a43e06e314db74539c92b
+Section: Tweaks Pagados
+Description: Track you friends on WhatsApp Messenger!
+Tag: cydia::commercial, purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: Fouad Raheb <fouad.raheb@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Dev: f0u4d
+Name: OnlineNotify
+
+Package: io.gmoran.eclipsex
+Version: 5.0.9-2
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 1220
+Depends: mobilesubstrate, preferenceloader, applist, org.thebigboss.libcolorpicker, firmware (>= 11.0)
+Filename: deb/io.gmoran.eclipsex_5.0.9-2_iphoneos-arm.deb
+Size: 613474
+MD5sum: cbab06787df057c24dce7cdeb84d40ec
+SHA1: 8dc3e71675b6c755078b0403184336171b944934
+SHA256: 27cfb143d52b06848e3c128234422b8c708ad251350ad0f2564c5ef1b14a9889
+Section: Tweaks Pagados
+Description: Night Mode (and more!) for all your apps!
+Author: Guillermo Morán (fr0st)
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: Eclipse X (iOS 11)
+
+Package: io.golddavid.colorbanners2
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 964
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
+Conflicts: com.golddavid.colorbanners, com.golddavid.colorbanners-cb
+Filename: deb/io.golddavid.colorbanners2_1.1.1_iphoneos-arm.deb
+Size: 656628
+MD5sum: c4846b6a5e6ab93b031a143d544adc0e
+SHA1: 0b9733b48bedbcc3b1eb0496b9d7f9a574ecc8c8
+SHA256: 0b702fcd7333f1d10ec7bfa37c83358bc201dff963cd55b53e43757325942f3f
+Section: Tweaks Pagados
+Description: Color your notifications
+Tag: cydia::commercial, purpose::extension, compatible::ios10, compatible::ios11
+Author: David Goldman <help@golddavid.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Dev: goldmandavid0
+Name: ColorBanners 2
+
+Package: io.junesiphone.lockpluspro
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 36044
+Depends: mobilesubstrate, preferenceloader
+Filename: deb/io.junesiphone.lockpluspro_1.2.5_iphoneos-arm.deb
+Size: 11547274
+MD5sum: 9892b44bc8f7c828f27c3c00a6451f55
+SHA1: b1e01a2b1e76de3e3193e75094bf267be1e3de08
+SHA256: c61911b3afbba02f612091226fb1bfb507e30a92f0a015f3959fedabfe2bd3f5
+Section: Tweaks Pagados
+Description: The ultimate lock screen tweak!
+Tag: cydia::paid
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: LockPlus Pro
+
+Package: io.junesiphone.lockpluspro
+Version: 1.2.7
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 36068
+Depends: mobilesubstrate, preferenceloader
+Filename: deb/io.junesiphone.lockpluspro_1.2.7_iphoneos-arm.deb
+Size: 11552370
+MD5sum: 440abd761224e3dc259fb2117503264e
+SHA1: f175179a02252d76ed0154db1843bcf710fec77b
+SHA256: 29a02310bbb3b3b48c2151063ec53859d0dfadc3729ff77a043ad64146fe75e3
+Section: Tweaks Pagados
+Description: The ultimate lock screen tweak!
+Tag: cydia::paid
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: LockPlus Pro
+
+Package: io.junesiphone.lockpluspro
+Version: 1.2.9
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 36068
+Depends: mobilesubstrate, preferenceloader
+Filename: deb/io.junesiphone.lockpluspro_1.2.9_iphoneos-arm.deb
+Size: 11549494
+MD5sum: 1d882c290051bd91e2100ae0b067168b
+SHA1: b0a6ea1c3730b516a8cfb86ce3a1931c2938de5c
+SHA256: c4533313a9f68d8f87227477823aa0101e802660b5c7746a52d2e73409b78395
+Section: Tweaks Pagados
+Description: The ultimate lock screen tweak!
+Tag: cydia::paid
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: LockPlus Pro
+
+Package: io.junesiphone.lockpluspro
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 36092
+Depends: mobilesubstrate, preferenceloader
+Filename: deb/io.junesiphone.lockpluspro_1.3.0_iphoneos-arm.deb
+Size: 11555310
+MD5sum: 396a4727e5a5036c7fc1687713c5c109
+SHA1: 8f01525c93cc5cfddf988e04eb91b4e44a7e4d5c
+SHA256: f22962a249e5958372a7526b5c4845a0c7222e7078e9c04b3738f9c52743277a
+Section: Tweaks Pagados
+Description: The ultimate lock screen tweak!
+Tag: cydia::paid
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: LockPlus Pro
+
+Package: io.junesiphone.lockpluspro
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 36096
+Depends: mobilesubstrate, preferenceloader
+Filename: deb/io.junesiphone.lockpluspro_1.3.1_iphoneos-arm.deb
+Size: 11555466
+MD5sum: cb9afb420ff6f9d4c2ad0e4869a66496
+SHA1: f0d033fea46d9bb9a99babc14bffb6e449c10774
+SHA256: a50d58b7338209ddf251b339478940a9b4448f282fe76fd3447d994df13eee46
+Section: Tweaks Pagados
+Description: The ultimate lock screen tweak!
+Tag: cydia::paid
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: LockPlus Pro
+
+Package: io.junesiphone.lockpluspro
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 36100
+Depends: mobilesubstrate, preferenceloader
+Filename: deb/io.junesiphone.lockpluspro_1.3.2_iphoneos-arm.deb
+Size: 11553954
+MD5sum: 2e93b02ea35dc87c3e1616f14ee5fc12
+SHA1: 78a3a824e96145722eca07c1e3defc165e6cbfcc
+SHA256: 3af62ec5d68542f04b212db6e154b19ec86f738e15aa16f2b6277635134a7984
+Section: Tweaks Pagados
+Description: The ultimate lock screen tweak!
+Tag: cydia::paid
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: LockPlus Pro
+
+Package: io.junesiphone.lockpluspro
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 36100
+Depends: mobilesubstrate, preferenceloader
+Filename: deb/io.junesiphone.lockpluspro_1.4.1_iphoneos-arm.deb
+Size: 11602248
+MD5sum: 57b9b8e72a9f96f8d4c24b2d9637b517
+SHA1: 40dd05ac6e2bb33899d8f8c0d7ec10987ed535d2
+SHA256: 5d1d352d464b16ad1cf7fbd2e1416d3210bd91241de13fe9b5e84ad291d739b6
+Section: Tweaks Pagados
+Description: The ultimate lock screen tweak!
+Tag: cydia::paid
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: LockPlus Pro
+
+Package: io.laughingquoll.noctisxi
+Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 668
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist
+Filename: deb/io.laughingquoll.noctisxi_1.5.4_iphoneos-arm.deb
+Size: 88312
+MD5sum: 1772869d7d18313de9a26bef92ea2d6e
+SHA1: adbec6bfa337204bb383e60546fe9e60bea6a698
+SHA256: b801c65ebe5433b5698787369f71afc9ceaacab6e7f91d45af5ff1103a4c258d
+Section: Tweaks Pagados
+Description: A system wide dark mode.
+Author: LaughingQuoll
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: NoctisXI
+
+Package: io.laughingquoll.semperin
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 324
+Depends: mobilesubstrate
+Filename: deb/io.laughingquoll.semperin_1.3.1_iphoneos-arm.deb
+Size: 43124
+MD5sum: fdb784319241644a9442941b11bdf343
+SHA1: cf12d904e05495a375e3b4b2b1a3d3258f1de8d8
+SHA256: 61c6776816eac8491650b3a9082dad348036e3ccecfd9bf9ac0a78acb6e3e8e5
+Section: Tweaks Pagados
+Description: Always on Display!
+Author: LaughingQuoll
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: Semperon
+
+Package: io.laughingquoll.semperin
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 324
+Depends: mobilesubstrate
+Filename: deb/io.laughingquoll.semperin_1.3.2_iphoneos-arm.deb
+Size: 43390
+MD5sum: e72ff01116e947a597bf8da610cc418f
+SHA1: be3f4f0cf5f12ef60a7adbd1b1b3b37a9334f1ae
+SHA256: 96da0df2592f28facc0361b4ae8fe9a24e8fa74c57d813072efeb74d6120f3e5
+Section: Tweaks Pagados
+Description: Always on Display!
+Author: LaughingQuoll
+Name: Semperon
+
+Package: io.laughingquoll.semperin
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 324
+Depends: mobilesubstrate, com.laughingquoll.prefixui, preferenceloader
+Filename: deb/io.laughingquoll.semperin_1.3.4_iphoneos-arm.deb
+Size: 45936
+MD5sum: 79e7b95c770e37a1be36636b5419125f
+SHA1: cdff4b870db598593deddca314a821ededacb43f
+SHA256: d2b510b76aad866af8fa69ed717c1b8b580adad941474c140c0dc9b185792d43
+Section: Tweaks Pagados
+Description: Always on Display!
+Author: LaughingQuoll
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: Semperon
+
+Package: io.limneos.callbarx
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 612
+Depends: mobilesubstrate
+Filename: deb/io.limneos.callbarx_0.1-1_iphoneos-arm.deb
+Size: 119338
+MD5sum: 5db2a22cf12e80a859002bd475a64a84
+SHA1: 360dcfc2dd3533bdf70c9ea1c3550549649ae194
+SHA256: 057496c3385cf5dd540b767be6f81a6fc838e772f415e4fd216c9f71c6cd99fe
+Section: Tweaks Pagados
+Description: Don't let incoming calls interrupt you!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
+Name: CallBar X
+
+Package: io.limneos.callbarx
+Version: 0.2-3
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 644
+Depends: mobilesubstrate, preferenceLoader
+Filename: deb/io.limneos.callbarx_0.2-3_iphoneos-arm.deb
+Size: 137526
+MD5sum: a3cf40854e22552c6179918ea3b7bb9d
+SHA1: c68987333bf42124d234e1963196c1879477f1a0
+SHA256: 5628e7329d3b6b191ef035d7968295127798b16517244053561cdda4e3feb51a
+Section: Tweaks Pagados
+Description: Don't let incoming calls interrupt you!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://sharklatan.com/cydia/depic/pagado.html
+Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
+Name: CallBar X
+
+Package: io.mdaus.sylph
+Version: 0.0.1.4-1+debug
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 420
+Depends: mobilesubstrate
+Filename: deb/io.mdaus.sylph_0.0.1.4-1+debug_iphoneos-arm.deb
+Size: 72048
+MD5sum: 19ec4007b37be19b472d14f6cb023245
+SHA1: c742cd026e392c5135d770fc66112e8749f04b77
+SHA256: 8804e664925ca7622132e42e2ae08ad52ab1624dd988192ab3c206fb7c00237a
+Section: JonaiPhone
+Description: An awesome MobileSubstrate tweak!
+Author: Max Dausch
+Depiction: http://sharklatan.com/cydia/info.html?id=io.mdaus.sylph
+Name: Sylph
+
+Package: io.sharklatan.adblocker
+Version: 10
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Filename: deb/io.sharklatan.adblocker_10_iphoneos-arm.deb
+Size: 19048
+MD5sum: 3f18a1230714341e420dd74bd9f18735
+SHA1: 2dd2d79288cd32283c5b9a33e8a2ac50a8d6b8ad
+SHA256: 05dc832bc19541ff602fb8736a27d7473eb638b18949a83e159443baa6f6df6c
+Section: JonaiPhone
+Description: Ad Blocker! ^_^
+Author: SharkLatan <sharklatan@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/block.html
+Name: Ad Blocker
+
+Package: io.sharklatan.adblocker
+Version: 9.0.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Filename: deb/io.sharklatan.adblocker_9.0.1_iphoneos-arm.deb
+Size: 248238
+MD5sum: 62802647fead933fb4b08ec7915904ff
+SHA1: e3d57f0424ed4fcc97b92aa165d9c33b96f88865
+SHA256: a00d5a27426c052e8e4dcb71fc378210b162a2379edca312806f9c2ed41f4691
+Section: JonaiPhone
+Description: Ad Blocker! ^_^
+Author: SharkLatan <sharklatan@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/block.html
+Name: Ad Blocker
+
+Package: io.sharklatan.adblocker
+Version: 9.0.2
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Filename: deb/io.sharklatan.adblocker_9.0.2_iphoneos-arm.deb
+Size: 18882
+MD5sum: 9cc39fbac9e90e1999378f71189be68a
+SHA1: b65a1e76b3d655dcdcd2ab6ecb4f6f11cac7d9bd
+SHA256: 824765354d49fba985eae3c8a79ecd9ba49a1d8a7dac8c773edf0139e764a53f
+Section: JonaiPhone
+Description: Ad Blocker! ^_^
+Author: SharkLatan <sharklatan@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/block.html
+Name: Ad Blocker
+
+Package: io.sharklatan.adblocker
+Version: 9.0.3
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Filename: deb/io.sharklatan.adblocker_9.0.3_iphoneos-arm.deb
+Size: 18918
+MD5sum: 5aedb705cd94ca4fc5a0907849ef72b1
+SHA1: f3d5e7ac859f1f8d47d4df0e41b19c6419a48be6
+SHA256: 4dddeddd15e8023ca45505a3df0381f34d5fc970c6ed39aec5bfdb3a1331bfbb
+Section: JonaiPhone
+Description: Ad Blocker! ^_^
+Author: SharkLatan <sharklatan@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/block.html
+Name: Ad Blocker
+
+Package: io.sharklatan.adblocker
+Version: 9.0.4
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Filename: deb/io.sharklatan.adblocker_9.0.4_iphoneos-arm.deb
+Size: 18930
+MD5sum: 59e99c40bc768d07f8497183d292ace3
+SHA1: 29ad6217f9c0ac0ae7c8b84b64453b2d2e1442bb
+SHA256: 848d21e4eaeeedc6aa1411ec291beff91fdf790006a50a522f722a372dc328ac
+Section: JonaiPhone
+Description: Ad Blocker! ^_^
+Author: SharkLatan <sharklatan@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/block.html
+Name: Ad Blocker
+
+Package: io.sharklatan.adblocker
+Version: 9.0.5
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Filename: deb/io.sharklatan.adblocker_9.0.5_iphoneos-arm.deb
+Size: 18998
+MD5sum: e6c310c0a214d02c4bf6815f3515025d
+SHA1: 03d6e1efb02b4aa4ff97eee9c96f1f4fd82d1b12
+SHA256: 4d2ff7e4f7e412a1c54499b63e9b8386f5a8f0db4f38f8981e7434bfb5caf0c9
+Section: JonaiPhone
+Description: Ad Blocker! ^_^
+Author: SharkLatan <sharklatan@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/block.html
+Name: Ad Blocker
+
+Package: io.sharklatan.aero
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Aero.deb
+Size: 8281190
+MD5sum: a69b57f12bb898d9bd58357cdabd9e47
+SHA1: 67e487de9fa359929bb336287766afe8b3b46e6d
+SHA256: 601713609cf31e2659bf8e5aa1c56c3434057d1ab5eb01d11927b34b108d3420
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.aero
+Name: aero
+
+Package: io.sharklatan.antirevoke
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Conflicts: fun.ignition.badiosbad
+Filename: deb/io.sharklatan.antirevoke_1.0_iphoneos-arm.deb
+Size: 5668
+MD5sum: f22e859d02cf8c4079524995288cb818
+SHA1: 43e3440f36877256ed443d9a46194fd06231e146
+SHA256: 17be13158aff219fe1c541fd3f04debe6f7395da0a3bd929cb39bdcd82a5781b
+Section: JonaiPhone
+Description: Bloquea actualizaciones del sistema iOS desde el core, permite instalar certificado de 7 días. Remueve Feedback Assistant App, elimina mensaje de actualización en las beta.
+Author: SharkLatan <sharklatan@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/antirevoke.html
+Name: antirevoke
+
+Package: io.sharklatan.antirevoke
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Conflicts: fun.ignition.badiosbad, com.repo.xarold.com.badiosbad, io.sharklatan.fun.ignition.badiosbad, com.yourepo.kiiimo.badiosbad
+Filename: deb/io.sharklatan.antirevoke_1.1_iphoneos-arm.deb
+Size: 5732
+MD5sum: 841bbc35e91baa6d524a145ee8923098
+SHA1: aafd605e5acdc633f05d2f98d90cbf3cfba49bb6
+SHA256: 83d4b9a8b101de184c0d881edea6a10aaf443a4e38b55915c66e83e1602eb776
+Section: JonaiPhone
+Description: Bloquea actualizaciones del sistema iOS desde el core, permite instalar certificado de 7 días. Remueve Feedback Assistant App, elimina mensaje de actualización en las beta, evita revocacion certificados al bloquear la conexion con apple.
+Author: SharkLatan <sharklatan@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/antirevoke.html
+Name: antirevoke
+
+Package: io.sharklatan.callbarxpatch
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Depends: com.julioverne.cracktool3
+Conflicts: com.repo.xarold.com.cracktool3, com.hackyouriphone.cracktool3, com.yourepo.mohadu31.cracktool3, repo.biteyourapple.net.cracktool3, cydia.kiiimo.org.cracktool3
+Filename: deb/io.sharklatan.callbarxpatch_1.0_iphoneos-arm.deb
+Size: 1458
+MD5sum: c6adb9b42c6df947d495d6186bec106e
+SHA1: be1056e23009532d7089fe70ab71b5b16f3d7691
+SHA256: 0c7e7ebf7afb6fa6df1553d333895a01460ac0f3a8fc0c960c920f02633a0d6c
+Section: Parches
+Description: Add Support to CallBar X in CrackTool3
+Author: Julio Verne
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.callbarxpatch
+Name: CrackTool3 Addons (CallBar X)
+
+Package: io.sharklatan.callbarxpatch
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Depends: com.julioverne.cracktool3
+Conflicts: com.repo.xarold.com.cracktool3, com.hackyouriphone.cracktool3, com.yourepo.mohadu31.cracktool3, repo.biteyourapple.net.cracktool3, cydia.kiiimo.org.cracktool3
+Filename: deb/io.sharklatan.callbarxpatch_1.1_iphoneos-arm.deb
+Size: 1474
+MD5sum: 08514431e0d6383ab04c5f10ac298d4a
+SHA1: bba9cef5a18d6decc18aaa3bb09de0c08241e7fa
+SHA256: 0477a2b6561cae88d5d639e7dd33cec9d322f1a3fd70d8f73f5781205c606f01
+Section: Parches
+Description: Add Support to CallBar X in CrackTool3
+Author: Julio Verne
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.callbarxpatch
+Name: CrackTool3 Addons (CallBar X)
+
+Package: io.sharklatan.flatty
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Flatty.deb
+Size: 15205614
+MD5sum: 4996afb651f5078dd25b5e8130c315ba
+SHA1: b0399fd45ac3109207340b438b5a2010976d5f43
+SHA256: 200cd691cb0188c384212a9db8532e42d38d28c3523360f70270cf017cc0f406
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.flatty
+Name: flatty
+
+Package: io.sharklatan.hypsta
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Hypsta.deb
+Size: 28148702
+MD5sum: 443ed151898bc77287ee78da528b8d91
+SHA1: b93384ab7f6afe02bdf614267a44645be011a3bf
+SHA256: 57e54c5d059a7f28cac841dd6375fc6e2ea9825defcfed7dd75be5e774714743
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.hypsta
+Name: hypsta
+
+Package: io.sharklatan.hypsta.pt2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.hypsta.pt2_1.0_iphoneos-arm.deb
+Size: 47164854
+MD5sum: 15c0833ec459797d62f0df847a2f5e3d
+SHA1: b284b1c9263efcfbdd212004b96e6e6c16169717
+SHA256: 886835c92e527ab3e69dfe4d504a0f4b1cb3068cc0f6fa881b5feb1dcffd6f36
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.hypsta.pt2
+Name: hypsta pt2
+
+Package: io.sharklatan.icone
+Version: 1.0
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Filename: deb/io.sharklatan.icone_1.0_iphoneos-arm.deb
+Size: 23212
+MD5sum: 1947ba8f8db05be8e2f274dbdc37f40e
+SHA1: 7c54ea410639b80fd761911447e69ada922fef86
+SHA256: 234aed2d285a4f7c93b46e767f11ffc1e5bf61e5e8e2b129c05ff94879a026df
+Section: System
+Description: iconos repo
+Author: SharkLatan <SharkLatan@gmail.com>
+Name: Shark Repo Icons
+Sponsor: SharkLatan <SharkLatan@gmail.com
+
+Package: io.sharklatan.icone
+Version: 1.0-1
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Filename: deb/io.sharklatan.icone_1.0-1_iphoneos-arm.deb
+Size: 61460
+MD5sum: 3a3a5e3c404637c5fbe798684b3e1837
+SHA1: b3d7f90de441fd24aecc1d8ca8f889418a38b986
+SHA256: 1f595918b827dbf3612d23621c8aab04eec5e8f4d7654d72be4a2df3a789ac4a
+Section: System
+Description: iconos repo
+Author: SharkLatan <SharkLatan@gmail.com>
+Name: Shark Repo Icons
+Sponsor: SharkLatan <SharkLatan@gmail.com
+
+Package: io.sharklatan.jonaiphone.zepelin
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 4.2), com.alexzielenski.zeppelin
+Filename: deb/io.sharklatan.jonaiphone_zepelin_logo_iphoneos-arm.deb
+Size: 8500
+MD5sum: 546f65f27f242baba1147ef39a0ab07e
+SHA1: 6c11f0f578e34c9c2c5007cbe3f42d9a4f3dc5db
+SHA256: 230dfaf8f40cee3c812ce5c2499760b118dc75a5c6c698314183a8c7916a3c66
+Section: JonaiPhone
+Description: Logo JonaiPhone Zeppelin
+Author: Brandon
+Depiction: http://sharklatan.github.io/cydia/depic/jona.html
+Name: JonaiPhone Logo Zeppelin
+
+Package: io.sharklatan.jonaiphone.zepelin
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 4.2), com.alexzielenski.zeppelin
+Filename: deb/io.sharklatan.jonaiphone.zepelin_1.1.0_iphoneos-arm.deb
+Size: 12110
+MD5sum: f8c07552e1352e600b9cfbc7992dbe96
+SHA1: c39e51a25b68c11950868c07cd2f61ca66120a64
+SHA256: 0d7443036951b6d8471ff15aa3dc9320bfbedb9de3e8b43a629ee9c816f77837
+Section: JonaiPhone
+Description: Logo JonaiPhone Zeppelin
+Author: BrandG <crash_bgc10@hotmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/jona.html
+Name: JonaiPhone Logo Zeppelin
+
+Package: io.sharklatan.pikabu.premium
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Depends: mobilesubstrate
+Conflicts: com.repo.xarold.com.pikabu, com.mrmadtw.pikabulite, cydia.kiiimo.org.pikabu, com.hackyouriphone.pikabu
+Filename: deb/io.sharklatan.pikabu.premium_1.0_iphoneos-arm.deb
+Size: 221704
+MD5sum: 2cd549dd2e2b637b0a82d646f84980a8
+SHA1: 948468cbd0955919f9c576e255626b9996e5e316
+SHA256: 0eb76f3ddeabed64e5439cf91211d8d4f3c990dabc7112f34f4255113087e956
+Section: JonaiPhone
+Description: Minimalistic volume hud on the notch, Headphone detection, Support iOS 11.3.x
+Author: Jeffrey Chan
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.pikabu.premium
+Name: Pikabu Premium
+
+Package: io.sharklatan.poweradvanced
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 151
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: deb/io.sharklatan.poweradvanced_1.0_iphoneos-arm.deb
+Size: 19018
+MD5sum: 57456b50718c13faa8c264754aa1a1df
+SHA1: 7033d12e8d2c185e1dccd43c26c0ba993f7a8750
+SHA256: d3d3260f81b8251b444989c45b4c546ab987ea09f68a6af7f5d66aea79604161
+Section: JonaiPhone
+Homepage: https://sharklatan.github.io/cydia/depic/power.html
+Description: Menu Power with Advanced Options.
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Author: SharkLatan <sharklatan@gmail.com m>
+Depiction: https://sharklatan.github.io/cydia/depic/power.html
+Dev: SharkLatan <sharklatan@gmail.com>
+Name: PowerAdvanced
+
+Package: io.sharklatan.poweradvanced
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Installed-Size: 151
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: deb/io.sharklatan.poweradvanced_1.0.1_iphoneos-arm.deb
+Size: 19008
+MD5sum: 35ce4cfd98f6e942c616c2b7f8f74079
+SHA1: 56ac797c51f5c94303b45a498a15c0dc6441292a
+SHA256: 53000435950ef7894d98cfd49e9f7b9c135428a6c6e005005e41d2d6bf9c06df
+Section: JonaiPhone
+Homepage: https://sharklatan.github.io/cydia/depic/power.html
+Description: Menu Power with Advanced Options.
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Author: SharkLatan <sharklatan@gmail.com m>
+Depiction: https://sharklatan.github.io/cydia/depic/power.html
+Dev: SharkLatan <sharklatan@gmail.com>
+Name: PowerAdvanced
+
+Package: io.sharklatan.sanity
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Sanity.deb
+Size: 6099056
+MD5sum: 94111fac146bd9497bc595b35be0f224
+SHA1: 815a2d5e99d2d46fca8869a6ad1d0a8e4c062491
+SHA256: ffa9374dd6e23ff61407edee65987711a96219fdf19f9e189236b0f458a8fee5
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.sanity
+Name: Sanity
+
+Package: io.sharklatan.shade
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Shade.deb
+Size: 5056094
+MD5sum: 60932bf4229827654b1436bd58bfb6c6
+SHA1: c20e6b15c29e25d173dde732c927cc9b79deb897
+SHA256: 3de3fc4485aa640ddbf541332558e15497f57516289a90472932e2015b61beb3
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.shade
+Name: shade
+
+Package: io.sharklatan.shark.zeppelin
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 4.2), com.alexzielenski.zeppelin
+Filename: deb/io.sharklatan.shark.zeppelin_1.0_iphoneos-arm.deb
+Size: 3596
+MD5sum: 96419f5eb598efce5afbb73de1ae27a0
+SHA1: 602b012d62d485249d7b6ac4a0d35239d7bccde4
+SHA256: b967abbaf59b0b34cedae038bec88ee946e05d5abc7a63da6f4efb1da690a1a8
+Section: JonaiPhone
+Description: Logo Shark Zeppelin
+Author: SharkLatan <sharklatan@gmail.com
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.shark.zeppelin
+Name: Shark Logo Zeppelin
+
+Package: io.sharklatan.sl8
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.SL8.deb
+Size: 8002474
+MD5sum: ffcfedf21abb7bd42a3de745bda20ff6
+SHA1: 5b94c09d7121f0c98764e2a9b33c7416d217c6da
+SHA256: 5f6b2d7f40e791785b83635d7f273912ec9ddf721e02a7449d4bd847f92f5197
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.sl8
+Name: sl8
+
+Package: io.sharklatan.sploosh
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Sploosh.deb
+Size: 7440160
+MD5sum: 6ae1ce6edde48677c0f77266c7ea0d8f
+SHA1: 95021c29f0bae6206f98c52212e101b71b432cad
+SHA256: 633faf958a81c152169d6a4cbd91b78ed21cc4181844a38e193795af10e25195
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.sploosh
+Name: sploosh
+
+Package: io.sharklatan.swag
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Swag.deb
+Size: 13824934
+MD5sum: ff2e06d5278d814196fb3df98e6f6d09
+SHA1: 69775b562e7a98762147e1006ab377ac5c29b029
+SHA256: a078c33f9aa38588dee76db7ced13bb3476c9c4b787482080a8658827c478006
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan. Lswag
+Name: swag
+
+Package: io.sharklatan.symmetry
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Symmetry.deb
+Size: 2914660
+MD5sum: fcb447d4b7623dab08c174f2dd1cbc1a
+SHA1: 3500984d7fc3f8cf8b10801424a0b540229eedee
+SHA256: 7d6eccf213b54344868ec87e7404d93c043e8533c54ad6291de23e225d7d9270
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.symmetry
+Name: symmetry
+
+Package: io.sharklatan.tinker
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <sharklatan@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Filename: deb/io.sharklatan.Tinker.deb
+Size: 5234292
+MD5sum: 6e0d117403c6b107fbf76c19aa2af25b
+SHA1: e46942b0119c4eb8b14614d96740dd5a7c921322
+SHA256: 61fa44e2316063e7e55e3489ec54664bf2fcf6982ddff9f098af132d629ea71c
+Section: Themes
+Description: Theme.
+Author: Krys Jay
+Depiction: https://sharklatan.github.io/cydia/info.html?id=io.sharklatan.tinker
+Name: tinker
+
+Package: io.shiftcmdk.pencilchargingindicator
+Version: 1.2~b3
+Architecture: iphoneos-arm
+Maintainer: shiftcmdk
+Installed-Size: 312
+Depends: mobilesubstrate
+Conflicts: com.shiftcmdk.pencilchargingindicator
+Filename: deb/io.shiftcmdk.pencilchargingindicator_1.2~b3_iphoneos-arm.deb
+Size: 65694
+MD5sum: 4b53cd61f7715c31ba4612bd07a3464e
+SHA1: d5a0f4f94be1f2d41756e7c316f4ba53b0182490
+SHA256: 122a3e89f54a2204f1ea4ea91e9e0db2e89c5fff3d0aec50318b8cf63e9c18c0
+Section: Shark
+Description: Make charging less boring with the Apple Pencil charging animation from the iPad Pro 2018.
+Author: shiftcmdk
+Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.pencilchargingindicator
+Name: PencilChargingIndicator
+
+Package: io.soh.iconresizerforios11
+Version: 1.9.9.1
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 716
+Depends: mobilesubstrate, com.chpwn.iconsupport
+Filename: deb/io.soh.iconresizerforios11_1.9.9.1_iphoneos-arm.deb
+Size: 235490
+MD5sum: a567669439554dc7f453507643c2cf17
+SHA1: 3713832924abfdae9832a53cc2a70dc0ff2be376
+SHA256: 1f44e488d01d0986ee3340bd217e9c6f6954bd27040a4575c876ce673a238b23
+Section: Tweaks Pagados
+Description: Control icons on Homescreen whatever you want to do. Confirmed works on iOS11.
+Tag: cydia::commercial, compatible_min::ios10, compatible_max::ios11.4
+Author: Soh Satoh
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Name: Iconator11
+
+Package: io.thebigboss.locationfaker8
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: SharkLatan <SharkLatan@gmail.com>
+Installed-Size: 1514
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: org.thebigboss.locationchangerx
+Filename: deb/io.thebigboss.locationfaker8_2.2_iphoneos-arm.deb
+Size: 450516
+MD5sum: d5d85d4ee8e40165a170d2756cabb920
+SHA1: 392be5b790944002145092f5b7d984057709023a
+SHA256: c69d5a08de9eee2f2b4b8ede375f59d56a22f7d8dedebb9f398626ca7e20b4d9
+Section: Tweaks Pagados
+Description: change your location using a map
+Tag: purpose::extension, role::enduser, cydia::commercial, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: Cunstuck <cunstuck@gmail.com>
+Depiction: http://sharklatan.github.io/cydia/depic/pagado.html
+Dev: cunstuck
+Name: LocationFaker(8,9,10,11)
+

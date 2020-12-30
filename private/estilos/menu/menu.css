@@ -1,0 +1,87 @@
+.Bloque {
+	border: 1px;
+	border-style: solid;
+	border-color: #4d7097;
+	background: #dddddd;
+	font-family: "Verdana", "Helvetica", "sans-serif";
+}
+
+#menu{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:1px 1px 3px #888;
+	-moz-box-shadow:1px 1px 3px #888;
+}
+#menu li{border-bottom:1px solid #FFF;}
+#menu ul li, #menu li:last-child{border:none;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:1px;
+	padding-left:1px;
+}
+
+a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	font-family: "Verdana", "Century Gothic", "helvetica";
+	font-size: 10px;
+	padding: 3px 5px;
+	text-shadow: 1px 1px 1px #325179
+}
+
+a.plus{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	font-family:"Verdana", "Century Gothic", "helvetica";
+	font-size: 10px;
+	padding:3px 5px;
+	text-shadow:1px 1px 1px #325179;
+	background-image:url("/PACWeb/estilos/menu/plus.gif"); 
+}
+
+#menu a:hover{
+	color:#F9B855;
+	-webkit-transition: color 0.2s linear;
+}
+#menu ul a{background-color:#004884;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:1px;
+	padding-left:1px;
+}
+#menu ul a:hover{
+	background-color:#FFF;
+	color:#2961A9;
+	text-shadow:none;
+	-webkit-transition: color, background-color 0.2s linear;
+}
+ul{
+	display:block;
+	background-color:#59708a;
+	margin:0;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-right:3px;
+	padding-left:3px;
+	width:130px;
+	list-style:none;
+}
+#menu ul{background-color:#D1D2D3;}
+#menu li ul {display:none;}
+#menu ul li li{
+background-color:gray;
+padding-left: 5px;
+}
+
+.Cabecera {
+	height: 20px;
+	margin: 5px 0px 5px 0px;
+	font-family: "Century Gothic", "Helvetica", "sans-serif";
+	font-size: 1 em;
+	font-weight: bolder;
+	color: #4d7097;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#aaaacc', Direction=135, Strength=2);
+}

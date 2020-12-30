@@ -1,0 +1,865 @@
+
+<html class="ios device-pixel-ratio-3 device-retina device-ios device-ios-11 device-ios-11-3 device-ios-gt-10 device-ios-gt-9 device-ios-gt-8 device-ios-gt-7 device-ios-gt-6 support-position-sticky"><head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="//asterixinstaller.com/cdn-cgi/apps/head/7rkaP5OMOzsf9-ITBgeridwaoyE.js"></script><link rel="stylesheet" href="data:text/css;charset=utf-8;base64,LyogbGluZSA2LCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KLm9mZmxpbmUtdWkgLm9mZmxpbmUtdWktcmV0cnk6YmVmb3JlIHsKICBjb250ZW50OiAiUmVjb25uZWN0IjsKfQovKiBsaW5lIDExLCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS11cCAub2ZmbGluZS11aS1jb250ZW50OmJlZm9yZSB7CiAgY29udGVudDogIllvdXIgY29tcHV0ZXIgaXMgY29ubmVjdGVkIHRvIHRoZSBpbnRlcm5ldC4iOwp9CkBtZWRpYSAobWF4LXdpZHRoOiAxMDI0cHgpIHsKICAvKiBsaW5lIDExLCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KICAub2ZmbGluZS11aS5vZmZsaW5lLXVpLXVwIC5vZmZsaW5lLXVpLWNvbnRlbnQ6YmVmb3JlIHsKICAgIGNvbnRlbnQ6ICJZb3VyIGRldmljZSBpcyBjb25uZWN0ZWQgdG8gdGhlIGludGVybmV0LiI7CiAgfQp9CkBtZWRpYSAobWF4LXdpZHRoOiA1NjhweCkgewogIC8qIGxpbmUgMTEsIC4uL3Nhc3MvX2NvbnRlbnQuc2FzcyAqLwogIC5vZmZsaW5lLXVpLm9mZmxpbmUtdWktdXAgLm9mZmxpbmUtdWktY29udGVudDpiZWZvcmUgewogICAgY29udGVudDogIllvdXIgZGV2aWNlIGlzIGNvbm5lY3RlZC4iOwogIH0KfQovKiBsaW5lIDIyLCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duIC5vZmZsaW5lLXVpLWNvbnRlbnQ6YmVmb3JlIHsKICBjb250ZW50OiAiWW91ciBjb21wdXRlciBsb3N0IGl0cyBpbnRlcm5ldCBjb25uZWN0aW9uLiI7Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDEwMjRweCkgewogIC8qIGxpbmUgMjIsIC4uL3Nhc3MvX2NvbnRlbnQuc2FzcyAqLwogIC5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93biAub2ZmbGluZS11aS1jb250ZW50OmJlZm9yZSB7CiAgICBjb250ZW50OiAiWW91ciBkZXZpY2UgbG9zdCBpdHMgaW50ZXJuZXQgY29ubmVjdGlvbi4iOwogIH0KfQpAbWVkaWEgKG1heC13aWR0aDogNTY4cHgpIHsKICAvKiBsaW5lIDIyLCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KICAub2ZmbGluZS11aS5vZmZsaW5lLXVpLWRvd24gLm9mZmxpbmUtdWktY29udGVudDpiZWZvcmUgewogICAgY29udGVudDogIllvdXIgZGV2aWNlIGlzbid0IGNvbm5lY3RlZC4iOwogIH0KfQovKiBsaW5lIDMzLCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktY29ubmVjdGluZyAub2ZmbGluZS11aS1jb250ZW50OmJlZm9yZSwgLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktY29ubmVjdGluZy0ycyAub2ZmbGluZS11aS1jb250ZW50OmJlZm9yZSB7CiAgY29udGVudDogIkF0dGVtcHRpbmcgdG8gcmVjb25uZWN0Li4uIjsKfQovKiBsaW5lIDQyLCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktd2FpdGluZyAub2ZmbGluZS11aS1jb250ZW50W2RhdGEtcmV0cnktaW4tdW5pdD0ic2Vjb25kIl06YmVmb3JlIHsKICBjb250ZW50OiAiQ29ubmVjdGlvbiBsb3N0LiBSZWNvbm5lY3RpbmcgaW4gIiBhdHRyKGRhdGEtcmV0cnktaW4tdmFsdWUpICIgc2Vjb25kcy4uLiI7Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDU2OHB4KSB7CiAgLyogbGluZSA0MiwgLi4vc2Fzcy9fY29udGVudC5zYXNzICovCiAgLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktd2FpdGluZyAub2ZmbGluZS11aS1jb250ZW50W2RhdGEtcmV0cnktaW4tdW5pdD0ic2Vjb25kIl06YmVmb3JlIHsKICAgIGNvbnRlbnQ6ICJSZWNvbm5lY3RpbmcgaW4gIiBhdHRyKGRhdGEtcmV0cnktaW4tdmFsdWUpICJzLi4uIjsKICB9Cn0KLyogbGluZSA1MCwgLi4vc2Fzcy9fY29udGVudC5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmcgLm9mZmxpbmUtdWktY29udGVudFtkYXRhLXJldHJ5LWluLXVuaXQ9InNlY29uZCJdW2RhdGEtcmV0cnktaW4tdmFsdWU9IjEiXTpiZWZvcmUgewogIGNvbnRlbnQ6ICJDb25uZWN0aW9uIGxvc3QuIFJlY29ubmVjdGluZyBpbiAiIGF0dHIoZGF0YS1yZXRyeS1pbi12YWx1ZSkgIiBzZWNvbmQuLi4iOwp9CkBtZWRpYSAobWF4LXdpZHRoOiA1NjhweCkgewogIC8qIGxpbmUgNTAsIC4uL3Nhc3MvX2NvbnRlbnQuc2FzcyAqLwogIC5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmcgLm9mZmxpbmUtdWktY29udGVudFtkYXRhLXJldHJ5LWluLXVuaXQ9InNlY29uZCJdW2RhdGEtcmV0cnktaW4tdmFsdWU9IjEiXTpiZWZvcmUgewogICAgY29udGVudDogIlJlY29ubmVjdGluZyBpbiAiIGF0dHIoZGF0YS1yZXRyeS1pbi12YWx1ZSkgInMuLi4iOwogIH0KfQovKiBsaW5lIDU4LCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktd2FpdGluZyAub2ZmbGluZS11aS1jb250ZW50W2RhdGEtcmV0cnktaW4tdW5pdD0ibWludXRlIl06YmVmb3JlIHsKICBjb250ZW50OiAiQ29ubmVjdGlvbiBsb3N0LiBSZWNvbm5lY3RpbmcgaW4gIiBhdHRyKGRhdGEtcmV0cnktaW4tdmFsdWUpICIgbWludXRlcy4uLiI7Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDU2OHB4KSB7CiAgLyogbGluZSA1OCwgLi4vc2Fzcy9fY29udGVudC5zYXNzICovCiAgLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktd2FpdGluZyAub2ZmbGluZS11aS1jb250ZW50W2RhdGEtcmV0cnktaW4tdW5pdD0ibWludXRlIl06YmVmb3JlIHsKICAgIGNvbnRlbnQ6ICJSZWNvbm5lY3RpbmcgaW4gIiBhdHRyKGRhdGEtcmV0cnktaW4tdmFsdWUpICJtLi4uIjsKICB9Cn0KLyogbGluZSA2NiwgLi4vc2Fzcy9fY29udGVudC5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmcgLm9mZmxpbmUtdWktY29udGVudFtkYXRhLXJldHJ5LWluLXVuaXQ9Im1pbnV0ZSJdW2RhdGEtcmV0cnktaW4tdmFsdWU9IjEiXTpiZWZvcmUgewogIGNvbnRlbnQ6ICJDb25uZWN0aW9uIGxvc3QuIFJlY29ubmVjdGluZyBpbiAiIGF0dHIoZGF0YS1yZXRyeS1pbi12YWx1ZSkgIiBtaW51dGUuLi4iOwp9CkBtZWRpYSAobWF4LXdpZHRoOiA1NjhweCkgewogIC8qIGxpbmUgNjYsIC4uL3Nhc3MvX2NvbnRlbnQuc2FzcyAqLwogIC5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmcgLm9mZmxpbmUtdWktY29udGVudFtkYXRhLXJldHJ5LWluLXVuaXQ9Im1pbnV0ZSJdW2RhdGEtcmV0cnktaW4tdmFsdWU9IjEiXTpiZWZvcmUgewogICAgY29udGVudDogIlJlY29ubmVjdGluZyBpbiAiIGF0dHIoZGF0YS1yZXRyeS1pbi12YWx1ZSkgIm0uLi4iOwogIH0KfQovKiBsaW5lIDc0LCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktd2FpdGluZyAub2ZmbGluZS11aS1jb250ZW50W2RhdGEtcmV0cnktaW4tdW5pdD0iaG91ciJdOmJlZm9yZSB7CiAgY29udGVudDogIkNvbm5lY3Rpb24gbG9zdC4gUmVjb25uZWN0aW5nIGluICIgYXR0cihkYXRhLXJldHJ5LWluLXZhbHVlKSAiIGhvdXJzLi4uIjsKfQpAbWVkaWEgKG1heC13aWR0aDogNTY4cHgpIHsKICAvKiBsaW5lIDc0LCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KICAub2ZmbGluZS11aS5vZmZsaW5lLXVpLWRvd24ub2ZmbGluZS11aS13YWl0aW5nIC5vZmZsaW5lLXVpLWNvbnRlbnRbZGF0YS1yZXRyeS1pbi11bml0PSJob3VyIl06YmVmb3JlIHsKICAgIGNvbnRlbnQ6ICJSZWNvbm5lY3RpbmcgaW4gIiBhdHRyKGRhdGEtcmV0cnktaW4tdmFsdWUpICJoLi4uIjsKICB9Cn0KLyogbGluZSA4MiwgLi4vc2Fzcy9fY29udGVudC5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmcgLm9mZmxpbmUtdWktY29udGVudFtkYXRhLXJldHJ5LWluLXVuaXQ9ImhvdXIiXVtkYXRhLXJldHJ5LWluLXZhbHVlPSIxIl06YmVmb3JlIHsKICBjb250ZW50OiAiQ29ubmVjdGlvbiBsb3N0LiBSZWNvbm5lY3RpbmcgaW4gIiBhdHRyKGRhdGEtcmV0cnktaW4tdmFsdWUpICIgaG91ci4uLiI7Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDU2OHB4KSB7CiAgLyogbGluZSA4MiwgLi4vc2Fzcy9fY29udGVudC5zYXNzICovCiAgLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktd2FpdGluZyAub2ZmbGluZS11aS1jb250ZW50W2RhdGEtcmV0cnktaW4tdW5pdD0iaG91ciJdW2RhdGEtcmV0cnktaW4tdmFsdWU9IjEiXTpiZWZvcmUgewogICAgY29udGVudDogIlJlY29ubmVjdGluZyBpbiAiIGF0dHIoZGF0YS1yZXRyeS1pbi12YWx1ZSkgImguLi4iOwogIH0KfQovKiBsaW5lIDkwLCAuLi9zYXNzL19jb250ZW50LnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktcmVjb25uZWN0LWZhaWxlZC0ycy5vZmZsaW5lLXVpLXdhaXRpbmcgLm9mZmxpbmUtdWktcmV0cnkgewogIGRpc3BsYXk6IG5vbmU7Cn0KLyogbGluZSA5MywgLi4vc2Fzcy9fY29udGVudC5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXJlY29ubmVjdC1mYWlsZWQtMnMgLm9mZmxpbmUtdWktY29udGVudDpiZWZvcmUgewogIGNvbnRlbnQ6ICJDb25uZWN0aW9uIGF0dGVtcHQgZmFpbGVkLiI7Cn0KLyogbGluZSA0LCAuLi9zYXNzL19vZmZsaW5lLXRoZW1lLWJhc2Uuc2FzcyAqLwoub2ZmbGluZS11aSwgLm9mZmxpbmUtdWkgKiwgLm9mZmxpbmUtdWk6YmVmb3JlLCAub2ZmbGluZS11aTphZnRlciwgLm9mZmxpbmUtdWkgKjpiZWZvcmUsIC5vZmZsaW5lLXVpICo6YWZ0ZXIgewogIGJveC1zaXppbmc6IGJvcmRlci1ib3g7Cn0KCi8qIGxpbmUgNywgLi4vc2Fzcy9fb2ZmbGluZS10aGVtZS1iYXNlLnNhc3MgKi8KLm9mZmxpbmUtdWkgewogIGRpc3BsYXk6IG5vbmU7CiAgcG9zaXRpb246IGZpeGVkOwogIGJhY2tncm91bmQ6ICNmZmY7CiAgei1pbmRleDogMjAwMDsKICBtYXJnaW46IGF1dG87CiAgdG9wOiAwOwogIGxlZnQ6IDA7CiAgcmlnaHQ6IDA7Cn0KLyogbGluZSAxNywgLi4vc2Fzcy9fb2ZmbGluZS10aGVtZS1iYXNlLnNhc3MgKi8KLm9mZmxpbmUtdWkgLm9mZmxpbmUtdWktY29udGVudDpiZWZvcmUgewogIGRpc3BsYXk6IGlubGluZTsKfQovKiBsaW5lIDIwLCAuLi9zYXNzL19vZmZsaW5lLXRoZW1lLWJhc2Uuc2FzcyAqLwoub2ZmbGluZS11aSAub2ZmbGluZS11aS1yZXRyeSB7CiAgLW1vei11c2VyLXNlbGVjdDogLW1vei1ub25lOwogIC1tcy11c2VyLXNlbGVjdDogbm9uZTsKICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lOwogIHVzZXItc2VsZWN0OiBub25lOwogIGRpc3BsYXk6IG5vbmU7Cn0KLyogbGluZSAyNCwgLi4vc2Fzcy9fb2ZmbGluZS10aGVtZS1iYXNlLnNhc3MgKi8KLm9mZmxpbmUtdWkgLm9mZmxpbmUtdWktcmV0cnk6YmVmb3JlIHsKICBkaXNwbGF5OiBpbmxpbmU7Cn0KLyogbGluZSAyOSwgLi4vc2Fzcy9fb2ZmbGluZS10aGVtZS1iYXNlLnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS11cC5vZmZsaW5lLXVpLXVwLTVzIHsKICBkaXNwbGF5OiBibG9jazsKfQovKiBsaW5lIDMyLCAuLi9zYXNzL19vZmZsaW5lLXRoZW1lLWJhc2Uuc2FzcyAqLwoub2ZmbGluZS11aS5vZmZsaW5lLXVpLWRvd24gewogIGRpc3BsYXk6IGJsb2NrOwp9Ci8qIGxpbmUgMzcsIC4uL3Nhc3MvX29mZmxpbmUtdGhlbWUtYmFzZS5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmcgLm9mZmxpbmUtdWktcmV0cnkgewogIGRpc3BsYXk6IGJsb2NrOwp9Ci8qIGxpbmUgNDIsIC4uL3Nhc3MvX29mZmxpbmUtdGhlbWUtYmFzZS5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXJlY29ubmVjdC1mYWlsZWQtMnMub2ZmbGluZS11aS13YWl0aW5nIC5vZmZsaW5lLXVpLXJldHJ5IHsKICBkaXNwbGF5OiBub25lOwp9CgpALXdlYmtpdC1rZXlmcmFtZXMgb2ZmbGluZS1kcm9waW4gewogIDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgb3BhY2l0eTogMDsKICB9CiAgMSUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgb3BhY2l0eTogMDsKICB9CiAgMiUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgb3BhY2l0eTogMTsKICB9CiAgMTAwJSB7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1tb3otdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1zLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIG9wYWNpdHk6IDE7CiAgfQp9CkAtbW96LWtleWZyYW1lcyBvZmZsaW5lLWRyb3BpbiB7CiAgMCUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbW96LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtby10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICBvcGFjaXR5OiAwOwogIH0KICAxJSB7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtbW96LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1zLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICBvcGFjaXR5OiAwOwogIH0KICAyJSB7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtbW96LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1zLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICBvcGFjaXR5OiAxOwogIH0KICAxMDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgb3BhY2l0eTogMTsKICB9Cn0KQC1tcy1rZXlmcmFtZXMgb2ZmbGluZS1kcm9waW4gewogIDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgb3BhY2l0eTogMDsKICB9CiAgMSUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgb3BhY2l0eTogMDsKICB9CiAgMiUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgb3BhY2l0eTogMTsKICB9CiAgMTAwJSB7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1tb3otdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1zLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIG9wYWNpdHk6IDE7CiAgfQp9CkAtby1rZXlmcmFtZXMgb2ZmbGluZS1kcm9waW4gewogIDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgb3BhY2l0eTogMDsKICB9CiAgMSUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgb3BhY2l0eTogMDsKICB9CiAgMiUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgb3BhY2l0eTogMTsKICB9CiAgMTAwJSB7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1tb3otdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1zLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIG9wYWNpdHk6IDE7CiAgfQp9CkBrZXlmcmFtZXMgb2ZmbGluZS1kcm9waW4gewogIDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgb3BhY2l0eTogMDsKICB9CiAgMSUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgb3BhY2l0eTogMDsKICB9CiAgMiUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgb3BhY2l0eTogMTsKICB9CiAgMTAwJSB7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1tb3otdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1zLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIG9wYWNpdHk6IDE7CiAgfQp9CkAtd2Via2l0LWtleWZyYW1lcyBvZmZsaW5lLWRyb3BvdXQgewogIDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogIH0KICAxMDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tb3otdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtby10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICB9Cn0KQC1tb3ota2V5ZnJhbWVzIG9mZmxpbmUtZHJvcG91dCB7CiAgMCUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbW96LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtby10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgfQogIDEwMCUgewogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogIH0KfQpALW1zLWtleWZyYW1lcyBvZmZsaW5lLWRyb3BvdXQgewogIDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogIH0KICAxMDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tb3otdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtby10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICB9Cn0KQC1vLWtleWZyYW1lcyBvZmZsaW5lLWRyb3BvdXQgewogIDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogIH0KICAxMDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tb3otdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtby10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICB9Cn0KQGtleWZyYW1lcyBvZmZsaW5lLWRyb3BvdXQgewogIDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW1vei10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgLW8tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogIH0KICAxMDAlIHsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtODAwcHgpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICAgIC1tb3otdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC04MDBweCk7CiAgICAtby10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTgwMHB4KTsKICB9Cn0KQC13ZWJraXQta2V5ZnJhbWVzIG9mZmxpbmUtcm90YXRpb24gewogIDAlIHsKICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICAgIC1tb3otdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtbXMtdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICB9CiAgMTAwJSB7CiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLW1zLXRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7CiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogIH0KfQpALW1vei1rZXlmcmFtZXMgb2ZmbGluZS1yb3RhdGlvbiB7CiAgMCUgewogICAgdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDBkZWcpOwogICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICAgIC1tcy10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICAgIC1vLXRyYW5zZm9ybTogcm90YXRlKDBkZWcpOwogIH0KICAxMDAlIHsKICAgIHRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7CiAgICAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7CiAgICAtbW96LXRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7CiAgICAtbXMtdHJhbnNmb3JtOiByb3RhdGUoMzU5ZGVnKTsKICAgIC1vLXRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7CiAgfQp9CkAtbXMta2V5ZnJhbWVzIG9mZmxpbmUtcm90YXRpb24gewogIDAlIHsKICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICAgIC1tb3otdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtbXMtdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICB9CiAgMTAwJSB7CiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLW1zLXRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7CiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogIH0KfQpALW8ta2V5ZnJhbWVzIG9mZmxpbmUtcm90YXRpb24gewogIDAlIHsKICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICAgIC1tb3otdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtbXMtdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICB9CiAgMTAwJSB7CiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLW1zLXRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7CiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogIH0KfQpAa2V5ZnJhbWVzIG9mZmxpbmUtcm90YXRpb24gewogIDAlIHsKICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICAgIC1tb3otdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtbXMtdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7CiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICB9CiAgMTAwJSB7CiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogICAgLW1zLXRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7CiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpOwogIH0KfQovKiBsaW5lIDE2LCAuLi9zYXNzL29mZmxpbmUtdGhlbWUtZGFyay5zYXNzICovCi5vZmZsaW5lLXVpIHsKICBib3JkZXItcmFkaXVzOiAwIDAgNHB4IDRweDsKICBmb250LWZhbWlseTogIkhlbHZldGljYSBOZXVlIiwgc2Fucy1zZXJpZjsKICBmb250LXdlaWdodDogMzAwOwogIHBhZGRpbmc6IDFlbTsKICB3aWR0aDogMzhlbTsKICBtYXgtd2lkdGg6IDEwMCU7CiAgYmFja2dyb3VuZDogIzAwMDsKICBjb2xvcjogI2NjYzsKICBvdmVyZmxvdzogaGlkZGVuOwp9CkBtZWRpYSAobWF4LXdpZHRoOiAzOGVtKSB7CiAgLyogbGluZSAxNiwgLi4vc2Fzcy9vZmZsaW5lLXRoZW1lLWRhcmsuc2FzcyAqLwogIC5vZmZsaW5lLXVpIHsKICAgIGJvcmRlci1yYWRpdXM6IDA7CiAgfQp9Ci8qIGxpbmUgMzAsIC4uL3Nhc3Mvb2ZmbGluZS10aGVtZS1kYXJrLnNhc3MgKi8KLm9mZmxpbmUtdWkgLm9mZmxpbmUtdWktY29udGVudCB7CiAgcGFkZGluZy1sZWZ0OiAyZW07Cn0KLyogbGluZSAzMywgLi4vc2Fzcy9vZmZsaW5lLXRoZW1lLWRhcmsuc2FzcyAqLwoub2ZmbGluZS11aSAub2ZmbGluZS11aS1jb250ZW50OmJlZm9yZSB7CiAgbGluZS1oZWlnaHQ6IDEuMjVlbTsKfQovKiBsaW5lIDM2LCAuLi9zYXNzL29mZmxpbmUtdGhlbWUtZGFyay5zYXNzICovCi5vZmZsaW5lLXVpIC5vZmZsaW5lLXVpLWNvbnRlbnQ6YWZ0ZXIgewogIGJvcmRlci1yYWRpdXM6IDUwJTsKICBjb250ZW50OiAiICI7CiAgZGlzcGxheTogYmxvY2s7CiAgcG9zaXRpb246IGFic29sdXRlOwogIHRvcDogMDsKICBib3R0b206IDA7CiAgbGVmdDogMWVtOwogIG1hcmdpbjogYXV0bzsKICBoZWlnaHQ6IDFlbTsKICB3aWR0aDogMWVtOwp9Ci8qIGxpbmUgNDgsIC4uL3Nhc3Mvb2ZmbGluZS10aGVtZS1kYXJrLnNhc3MgKi8KLm9mZmxpbmUtdWkgLm9mZmxpbmUtdWktcmV0cnkgewogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICByaWdodDogM2VtOwogIHRvcDogMDsKICBib3R0b206IDA7CiAgYmFja2dyb3VuZDogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjIpOwogIHRleHQtZGVjb3JhdGlvbjogbm9uZTsKICBjb2xvcjogaW5oZXJpdDsKICBsaW5lLWhlaWdodDogMy41ZW07CiAgaGVpZ2h0OiAzLjVlbTsKICBtYXJnaW46IGF1dG87CiAgcGFkZGluZzogMCAxZW07Cn0KLyogbGluZSA2MSwgLi4vc2Fzcy9vZmZsaW5lLXRoZW1lLWRhcmsuc2FzcyAqLwoub2ZmbGluZS11aS5vZmZsaW5lLXVpLXVwIHsKICAtd2Via2l0LWFuaW1hdGlvbjogb2ZmbGluZS1kcm9wb3V0IGZvcndhcmRzIDAuNXMgMnM7CiAgLW1vei1hbmltYXRpb246IG9mZmxpbmUtZHJvcG91dCBmb3J3YXJkcyAwLjVzIDJzOwogIC1tcy1hbmltYXRpb246IG9mZmxpbmUtZHJvcG91dCBmb3J3YXJkcyAwLjVzIDJzOwogIC1vLWFuaW1hdGlvbjogb2ZmbGluZS1kcm9wb3V0IGZvcndhcmRzIDAuNXMgMnM7CiAgYW5pbWF0aW9uOiBvZmZsaW5lLWRyb3BvdXQgZm9yd2FyZHMgMC41cyAyczsKICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjsKfQovKiBsaW5lIDY0LCAuLi9zYXNzL29mZmxpbmUtdGhlbWUtZGFyay5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktdXAgLm9mZmxpbmUtdWktY29udGVudDphZnRlciB7CiAgYmFja2dyb3VuZDogIzgwZDU4MDsKfQovKiBsaW5lIDY3LCAuLi9zYXNzL29mZmxpbmUtdGhlbWUtZGFyay5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93biB7CiAgLXdlYmtpdC1hbmltYXRpb246IG9mZmxpbmUtZHJvcGluIDAuNXM7CiAgLW1vei1hbmltYXRpb246IG9mZmxpbmUtZHJvcGluIDAuNXM7CiAgLW1zLWFuaW1hdGlvbjogb2ZmbGluZS1kcm9waW4gMC41czsKICAtby1hbmltYXRpb246IG9mZmxpbmUtZHJvcGluIDAuNXM7CiAgYW5pbWF0aW9uOiBvZmZsaW5lLWRyb3BpbiAwLjVzOwogIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuOwp9Ci8qIGxpbmUgNzAsIC4uL3Nhc3Mvb2ZmbGluZS10aGVtZS1kYXJrLnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duIC5vZmZsaW5lLXVpLWNvbnRlbnQ6YWZ0ZXIgewogIGJhY2tncm91bmQ6ICNlMjQ5NDk7Cn0KLyogbGluZSA3MywgLi4vc2Fzcy9vZmZsaW5lLXRoZW1lLWRhcmsuc2FzcyAqLwoub2ZmbGluZS11aS5vZmZsaW5lLXVpLWRvd24ub2ZmbGluZS11aS1jb25uZWN0aW5nLCAub2ZmbGluZS11aS5vZmZsaW5lLXVpLWRvd24ub2ZmbGluZS11aS13YWl0aW5nIHsKICBwYWRkaW5nLXJpZ2h0OiAzZW07Cn0KLyogbGluZSA3NiwgLi4vc2Fzcy9vZmZsaW5lLXRoZW1lLWRhcmsuc2FzcyAqLwoub2ZmbGluZS11aS5vZmZsaW5lLXVpLWRvd24ub2ZmbGluZS11aS1jb25uZWN0aW5nIC5vZmZsaW5lLXVpLWNvbnRlbnQ6YWZ0ZXIsIC5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmcgLm9mZmxpbmUtdWktY29udGVudDphZnRlciB7CiAgYmFja2dyb3VuZDogI2UyNDk0OTsKfQovKiBsaW5lIDc5LCAuLi9zYXNzL29mZmxpbmUtdGhlbWUtZGFyay5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLWNvbm5lY3Rpbmc6YWZ0ZXIsIC5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmc6YWZ0ZXIgewogIC13ZWJraXQtYW5pbWF0aW9uOiBvZmZsaW5lLXJvdGF0aW9uIDAuN3MgbGluZWFyIGluZmluaXRlOwogIC1tb3otYW5pbWF0aW9uOiBvZmZsaW5lLXJvdGF0aW9uIDAuN3MgbGluZWFyIGluZmluaXRlOwogIC1tcy1hbmltYXRpb246IG9mZmxpbmUtcm90YXRpb24gMC43cyBsaW5lYXIgaW5maW5pdGU7CiAgLW8tYW5pbWF0aW9uOiBvZmZsaW5lLXJvdGF0aW9uIDAuN3MgbGluZWFyIGluZmluaXRlOwogIGFuaW1hdGlvbjogb2ZmbGluZS1yb3RhdGlvbiAwLjdzIGxpbmVhciBpbmZpbml0ZTsKICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjsKICBib3JkZXItcmFkaXVzOiA1MCU7CiAgY29udGVudDogIiAiOwogIGRpc3BsYXk6IGJsb2NrOwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICByaWdodDogMWVtOwogIHRvcDogMDsKICBib3R0b206IDA7CiAgbWFyZ2luOiBhdXRvOwogIGhlaWdodDogMWVtOwogIHdpZHRoOiAxZW07CiAgYm9yZGVyOiAycHggc29saWQgdHJhbnNwYXJlbnQ7CiAgYm9yZGVyLXRvcC1jb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjUpOwogIGJvcmRlci1sZWZ0LWNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNSk7CiAgb3BhY2l0eTogMC43Owp9Ci8qIGxpbmUgOTYsIC4uL3Nhc3Mvb2ZmbGluZS10aGVtZS1kYXJrLnNhc3MgKi8KLm9mZmxpbmUtdWkub2ZmbGluZS11aS1kb3duLm9mZmxpbmUtdWktd2FpdGluZyB7CiAgcGFkZGluZy1yaWdodDogMTFlbTsKfQovKiBsaW5lIDk5LCAuLi9zYXNzL29mZmxpbmUtdGhlbWUtZGFyay5zYXNzICovCi5vZmZsaW5lLXVpLm9mZmxpbmUtdWktZG93bi5vZmZsaW5lLXVpLXdhaXRpbmcub2ZmbGluZS11aS1yZWNvbm5lY3QtZmFpbGVkLTJzIHsKICBwYWRkaW5nLXJpZ2h0OiAwOwp9Cg=="><link rel="apple-touch-icon" href="lib/img/asterix.jpg">
+
+<meta name="theme-color" content="#645cff">
+
+<title>Asterix</title>
+
+<link rel="stylesheet" href="lib/framework7.css">
+
+<link rel="stylesheet" href="lib/app.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<style type="text/css">
+      * {
+         font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+    </style>
+<script type="text/javascript" src="//wzdzht7am5.com/cb/01/45/cb0145641fe4c80ca20c0e25441645a9.js"></script>
+<script type="text/javascript" src="//wzdzht7am5.com/cb/01/45/cb0145641fe4c80ca20c0e25441645a9.js"></script>
+<script async="async" type="text/javascript" src="//go.mobisla.com/notice.php?p=1553664&interactive=1&pushup=1"></script>
+<script async="async" type="text/javascript" src="//go.mobisla.com/notice.php?p=1553664&interactive=1&pushup=1"></script>
+<script src="//go.mobtrks.com/notice.php?p=1779060&interstitial=1" type="text/javascript"></script>
+<script src="//go.mobtrks.com/notice.php?p=1779060&interstitial=1" type="text/javascript"></script>
+<script src="//defpush.com/ntfc.php?p=1553778" data-cfasync="false" async=""></script>
+<script src="//defpush.com/ntfc.php?p=1553778" data-cfasync="false" async=""></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109658097-1" type="text/javascript"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109658097-1');
+</script>
+<script src="//ie8eamus.com/sfp.js" async=""></script><script src="//ie8eamus.com/sfp.js" async=""></script><script></script></head>
+<body class="theme-dark">
+
+<div id="app" class="framework7-root">
+
+<div class="statusbar"></div>
+
+<div class="view view-main"><div class="navbar"><div class="navbar-inner navbar-current">
+<div class="left">
+<a href="#" class="link back" style="color: #645cff;">
+<i class="icon icon-back color-purple"></i>
+<span>Back</span>
+</a>
+</div>
+<div class="title" style="left: -160.5px;">Packages</div>
+<div class="subnavbar">
+
+<form class="searchbar no-hairline searchbar-init" data-search-container=".search-here" data-search-in=".item-title">
+<div class="searchbar-inner">
+<div class="searchbar-input-wrap">
+<input type="search" placeholder="Search">
+<i class="searchbar-icon"></i>
+<span class="input-clear-button"></span>
+</div>
+<span class="searchbar-disable-button">Cancel</span>
+</div>
+</form>
+</div>
+</div></div>
+
+<div data-name="home" class="page page-previous" aria-hidden="true">
+<div class="toolbar tabbar no-hairline">
+<div class="toolbar-inner">
+<a href="#tab-1" class="tab-link"><i class="material-icons">home</i></a>
+<a href="#tab-2" class="tab-link tab-link-active"><i class="material-icons">get_app</i></a>
+<a href="#tab-3" class="tab-link"><i class="material-icons">settings</i></a>
+</div>
+</div>
+<div class="tabs-swipeable-wrap swiper-container swiper-container-horizontal swiper-container-ios">
+<div class="tabs swiper-wrapper" style="transform: translate3d(-414px, 0px, 0px); transition-duration: 0ms;">
+<div id="tab-1" class="page-content tab swiper-slide swiper-slide-prev" style="width: 414px;">
+<div class="block">
+<p class="page-date">
+<script type="text/javascript">
+                       var mydate=new Date()
+                       var year=mydate.getYear()
+                       var day=mydate.getDay()
+                       var month=mydate.getMonth()
+                       var daym=mydate.getDate()
+                       if (daym<10)
+                         daym="0"+daym
+                       var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+                       var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+                       document.write(dayarray[day]+", "+montharray[month]+" "+daym)
+                    </script>Wednesday, October 03
+</p>
+<h1 class="page-title" style="color: #645cff;">Today</h1>
+ </div>
+<div class="card main-card">
+<div class="card-content card-content-padding">
+<h1 class="card-subtitle">WELCOME</h1>
+<h1 class="card-title">Asterix Installer</h1>
+<img src="lib/img/a.png" class="main-card-image" width="100px">
+<p class="card-desc">New? Let's get started.<br>Begin by tapping one of the tabs below.</p>
+</div>
+</div>
+<div class="card eclipse-card"><a href="/page/?type=tapps&id=10">
+</a><div class="card-content card-content-padding"><a href="/page/?type=tapps&id=10">
+<h1 class="card-subtitle" style="color:white">NEW ARRIVAL</h1>
+<h1 class="card-title" style="color:white">Eclipse</h1>
+<img src="lib/img/eclipsemain.png" class="main-card-image" width="100px"> </a>
+<p class="card-desc">The non revokable multi emulator by the Zenith Dev Team.<br>Tap this card to Install.</p>
+</div>
+</div>
+<div class="card">
+<div class="card-content card-content-padding">
+<h1 class="card-title">Featured</h1>
+<div class="list media-list no-hairlines-between no-hairlines">
+<ul>
+<br>
+<li>
+<a href="/page/?type=tapps&id=10" class="item-link item-content">
+<div class="item-media"><img src="https://pbs.twimg.com/profile_images/964559269810114561/uWxGnJ4y_400x400.jpg" class="app-icon" width="80"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Eclipse</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Zenith Dev Team</div>
+<div class="item-text">The non revokable multi emulator by the Zenith Dev Team.</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="tab-2" class="page-content tab swiper-slide swiper-slide-active tab-active" style="width: 414px;">
+<div class="block"><p class="page-date">CATEGORIES</p></div>
+<div class="list media-list no-hairlines-between no-hairlines inset">
+<ul>
+<li>
+<a href="/apps/?type=tapps" class="item-link item-content">
+<div class="item-media"><img src="lib/img/download.jpg" class="app-icon" width="65"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Packages</div>
+</div>
+<div class="item-text">Tweaks, Emulators, Cydia Apps</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="list media-list no-hairlines-between no-hairlines inset">
+<ul>
+<li>
+<a href="/apps/?type=papps" class="item-link item-content">
+<div class="item-media"><img src="lib/img/free.jpg" class="app-icon" width="65"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Paid Apps</div>
+</div>
+<div class="item-text">All of the paid apps!</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="list media-list no-hairlines-between no-hairlines inset">
+<ul>
+<li>
+<a href="/apps/?type=tgames" class="item-link item-content">
+<div class="item-media"><img src="lib/img/game.jpg" class="app-icon" width="65"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Hacked Games</div>
+</div>
+<div class="item-text">Unlimited Coins, Lives, etc.</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="list media-list no-hairlines-between no-hairlines inset">
+ <ul>
+<li>
+<a href="/apps/?type=pgames" class="item-link item-content">
+<div class="item-media"><img src="lib/img/game2.jpg" class="app-icon" width="65"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Paid Games</div>
+</div>
+<div class="item-text">All of the paid games!</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="tab-3" class="page-content tab swiper-slide swiper-slide-next" style="width: 414px;">
+<div class="card">
+<div class="card-content card-content-padding">
+<form class="list form-store-data media-list no-hairlines-between no-hairlines" id="asterix-theme">
+<ul>
+<li>
+<a href="https://twitter.com/AsterixApp" class="item-link item-content external">
+<div class="item-media"><img src="lib/img/asterix.jpg" class="app-icon" width="80"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Twitter</div>
+<div class="item-after"></div>
+</div>
+<div class="item-text">Follow us on twitter for updates!</div>
+</div>
+</a>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Light Theme</div>
+<div class="item-after">
+<label class="toggle">
+<input type="checkbox" name="switch" value="yes"><i class="toggle-icon" id="toggle-theme"></i>
+</label>
+</div>
+</div>
+<div class="item-text">Toggle the light and dark themes.</div>
+</div>
+</div>
+</li>
+</ul>
+</form>
+</div>
+</div>
+<div class="card">
+<div class="card-content card-content-padding">
+<h1 class="card-title">Switch Language</h1>
+<div class="list links-list no-hairlines-between no-hairlines">
+<ul>
+<br>
+<li><a class="link" onclick="localStorage.setItem('lang', 'ru'); window.location.href = '../lang_ru/index.php';" href="#">Русский 🇷🇺</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-content card-content-padding">
+<h1 class="card-title">Credits</h1>
+<div class="list media-list no-hairlines-between no-hairlines">
+<ul>
+<br>
+<li>
+<a href="http://material.io/icons" class="item-link item-content external">
+<div class="item-media"><img src="https://material.io/tools/icons/static/ic_material_192px_light.svg" class="app-icon" width="80"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Material.io</div>
+
+</div>
+<div class="item-text">Provided Icons & Assets</div>
+</div>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/Banakin9" class="item-link item-content external">
+<div class="item-media"><img src="https://pbs.twimg.com/profile_images/1002939028126265346/yjPPRCpR_400x400.jpg" class="app-icon" width="80"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Banakin</div>
+
+</div>
+<div class="item-text">Helped with Design</div>
+</div>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/ItsNash0" class="item-link item-content external">
+<div class="item-media"><img src="https://pbs.twimg.com/profile_images/1027206858031939584/uxmet5lN_400x400.jpg" class="app-icon" width="80"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Nash0</div>
+
+</div>
+<div class="item-text">Provided App Installations/IPAs</div>
+</div>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/ArshiaShojaian" class="item-link item-content external">
+<div class="item-media"><img src="https://pbs.twimg.com/profile_images/968933082282766336/fulFu2PN_400x400.jpg" class="app-icon" width="80"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Arshia Shojaian</div>
+
+</div>
+<div class="item-text">Helped with Extra Features</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+</div>
+<div class="page page-with-subnavbar page-current">
+
+
+
+<div class="page-content tab">
+
+<div class="searchbar-backdrop"></div>
+
+<div class="list media-list searchbar-found search-here no-hairlines-between no-hairlines">
+<ul>
+<li>
+<div class="item-content">
+<div class="item-inner">
+<h1 class="page-title">Packages</h1>
+</div>
+</div>
+</li>
+<li>
+<a href="/page/?type=tapps&id=1" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/aerotv.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">AeroTV</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">Watch live TV for free.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=2" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/airshou.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">AirShou</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">The Airshou Team</div>
+<div class="item-text">Record your screen and livestream from your phone.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=3" class="item-link item-content">
+<div class="item-media"><img src="https://i.imgur.com/ufYqFue.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">AnimojiStudio</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">Use animoji outside of the messages app.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=4" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/bobbymovie.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Bobby Movie</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Bobby Movie</div>
+<div class="item-text">Stream movies for free!</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=5" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/channels.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Channels</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Channels</div>
+<div class="item-text">Record your screen and livestream from your phone.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=6" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/youtube++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Cercube 4</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Majd Alfhaily</div>
+<div class="item-text">Get more out of your youtube experience. Delete original YouTube app before installing Cercube.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=7" class="item-link item-content">
+<div class="item-media"><img src="http://is4.mzstatic.com/image/thumb/Purple122/v4/d1/44/28/d14428f5-327f-a9f2-231a-83fb686599a7/source/512x512bb.jpg" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Crunchyroll++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">A hacked Crunchyroll app.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=8" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/delta.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Delta</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Riley Testut</div>
+<div class="item-text">Play Gameboy games on your phone!</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=9" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/deezer++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Deezer++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">Premium Deezer for free.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=10" class="item-link item-content">
+<div class="item-media"><img src="https://pbs.twimg.com/profile_images/964559269810114561/uWxGnJ4y_400x400.jpg" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Eclipse</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Zenith Dev Team</div>
+<div class="item-text">Eclipse is one of the only emulators for iOS that feels and acts like a native app, but will never be revoked on stock iOS. With Eclipse, you can emulate a plethora of systems, from the Nintendo Entertainment System, to the Game Boy line, to the Sega Master System and Game Gear, all with one app!</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=11" class="item-link item-content">
+<div class="item-media"><img src="https://pbs.twimg.com/profile_images/1002909401014030343/FnmDOlHz_400x400.jpg" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Electra1131 VFS</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Coolstar, Pwn20wnd</div>
+<div class="item-text">Jailbreak any device on iOS 11.3.1 or below.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=11" class="item-link item-content">
+<div class="item-media"><img src="https://pbs.twimg.com/profile_images/1002909401014030343/FnmDOlHz_400x400.jpg" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Electra1131 MPTCP</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Coolstar, Pwn20wnd</div>
+<div class="item-text">Electra1131 with a much higher success rate. This version is recommended over the VFS exploit version.<br><br><br>Credits: Appvalley</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=12" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/facebook++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Facebook++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">UnlimApps</div>
+<div class="item-text">Get more from your Facebook app.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=13" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/gba4ios.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">GBA4IOS</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Riley Testut</div>
+<div class="item-text">Play gameboy games on your iPhone.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=14" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/happychick.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Happy Chick</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Xiaoji001</div>
+<div class="item-text">All in one multi console emulator and more!</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=15" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/inds.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">iNDS</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">William Cobb</div>
+<div class="item-text">Play Nintendo DS games on your phone.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=16" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/instagram++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Instagram++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">UnlimApps</div>
+<div class="item-text">Repost, download, and more on Instagram.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=17" class="item-link item-content">
+<div class="item-media"><img src="https://cdn.tweakboxapp.com/icons/kahootkiller.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">KahootKiller</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">DanielD3V and Nash0</div>
+<div class="item-text">Fill up Kahoot games with ease.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=18" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/livewire.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">LiveWire</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">Live stream TV channels.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=19" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/moviebox.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Movie Box</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">The Movie Box Team</div>
+<div class="item-text">Watch movies for free on your phone.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=20" class="item-link item-content">
+<div class="item-media"><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/11/fe/c6/11fec60a-da95-f60c-4a50-039208cb4d35/mzl.tbdzqccp.png/230x0w.jpg" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Movies Diary</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">Watch movies for free on your phone.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=21" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/napster++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Napster++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">Listen to Napster and have premium features for free.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=22" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/nba++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">NBA++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">n3d</div>
+<div class="item-text">A hacked version of the NBA app.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=23" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/newgamepad.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">NewGamePad</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">A multi emu for your iPhone.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=24" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/pandora++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Pandora++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">A tweaked version of Pandora.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=25" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/popcorntime.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">PopcornTime</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Chris Alderson</div>
+<div class="item-text">Watch movies for free on your phone.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=26" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/ppsspp.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">PPSSPP</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Henrik Rydgard</div>
+<div class="item-text">A PSP emulator for iOS</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=27" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/provenance.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Provenance</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">James Addyman</div>
+<div class="item-text">A huge, Open Sourced multi platform emulator.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=28" class="item-link item-content">
+<div class="item-media"><img src="https://www.trendsmap.com/ipx/https://pbs.twimg.com/profile_images/914822262846394368/CmldT-iA.jpg" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Rulu</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">Watch movies and shows for free on your phone no revokes.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=29" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/saavn++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Saavn++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">A tweaked version of Saavn.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=30" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/tweaksm.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Snapchat++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">UnlimApps</div>
+<div class="item-text">Do more with your Snapchat app.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=31" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/tweaksm.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Snapchat Phantom</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">CokePokes</div>
+<div class="item-text">A tweaked version of Snapchat.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=32" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/spotify++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Spotify++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Julio Verne</div>
+<div class="item-text">Ad free and unlimited skips.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=33" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/tinder++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Tinder++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">A hacked version of Tinder.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=34" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/twitter++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Twitter++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">Download videos and more with a hacked version of Twitter.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=39" class="item-link item-content">
+<div class="item-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/53/4f/52/534f52c2-26f8-7610-1aea-a3cfa1d9b01e/source/128x128-75.jpg" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">TwitterDarkMode++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">depressionshope</div>
+<div class="item-text">Twitter Dark Mode + No ads Promo + Twitter Experiments!</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=35" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/ufc++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">UFC++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">A hacked version of the UFC app.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=36" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/whatsapp++.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Whatsapp++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Unknown</div>
+<div class="item-text">A hacked version of Whatsapp.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=37" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/xcleaner.png" class="app-icon" width="70"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">xCleaner</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">Wonjoo Jang</div>
+<div class="item-text">Clean your iPhone for some extra storage space.</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/page/?type=tapps&id=38" class="item-link item-content">
+<div class="item-media"><img src="https://asterixinstaller.com/app/img/youtube++.png" class="app-icon" width="70"></div>
+ <div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Youtube++</div>
+<div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
+</div>
+<div class="item-subtitle">UnlimApps</div>
+<div class="item-text">A hacked version of youtube where you can download videos and more.</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+
+<div class="block searchbar-not-found">
+<div class="block-inner">Nothing found</div>
+</div>
+</div>
+</div></div>
+
+<script type="text/javascript" src="lib/framework7.min.js"></script>
+
+<script type="text/javascript" src="lib/app.js"></script>
+
+</div><div class="offline-ui offline-ui-up"><div class="offline-ui-content"></div><a href="" class="offline-ui-retry"></a></div><script src="https://mobpushup.com/interstitial.php?zoneid=1779060&ng=1&ix=0&pt=0&np=1&nw=1&nb=1&sw=414&sh=736&pl=https%3A%2F%2Fwww.asterixinstaller.com%2Fapp%2Flang_en%2Findex.php&wy=0&wx=0&ww=0&wh=0&wiw=414&wih=622&wfc=0&sah=736&drf=&hil=1"></script><script src="https://mobpushup.com/interstitial.php?zoneid=1779060&ng=1&ix=0&pt=0&np=1&nw=1&nb=1&sw=414&sh=736&pl=https%3A%2F%2Fwww.asterixinstaller.com%2Fapp%2Flang_en%2Findex.php&wy=0&wx=0&ww=0&wh=0&wiw=414&wih=622&wfc=0&sah=736&drf=&hil=1"></script><div class="offline-ui offline-ui-up"><div class="offline-ui-content"></div><a href="" class="offline-ui-retry"></a></div></body></html>

@@ -1,0 +1,8 @@
+Origin: Shark Repo
+Label: JonaiPhone Official Repo
+Suite: stable
+Version: 2.0r5
+Codename: iOS
+Architecture: iphoneos-arm
+Components: main
+Description: JonaiPhone Official Repo

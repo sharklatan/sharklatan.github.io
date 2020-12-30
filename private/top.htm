@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<HTML><HEAD><TITLE>Parametros</TITLE> 
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+<LINK href="estilos/sisap_st.css" type=text/css rel=stylesheet> 
+
+<script type="text/javascript" src="./js/jquery/jquery-1.2.3.pack.js"></script> 
+
+<script type="text/javascript"> 
+
+function soporte(idSoporte, idMenu){ 
+
+window.showModalDialog("./soporte.do?idSoporte="+idSoporte+"&idMenu="+idMenu,"","dialogHeight:250px;dialogWidth:550px;status:no;dialogHide:yes; help: No; resizable: No;"); 
+} 
+
+function click() { 
+if (event.button==2) {} 
+} 
+
+document.onmousedown=click 
+
+</script> 
+<BODY><script type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.css" /><script type="text/javascript" language="javascript" src="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.js?0=0&amp;0=0&amp;0=0"></script> 
+
+
+<TABLE width="100%" align=center border=0> 
+<TBODY> 
+<TR> 
+<TD align=middle width=133 bgColor=#024a85><IMG src="imagenes/logo-telcel.jpg" width="70" height="20" ></TD> 
+
+<TD class=Bloque align=middle style="width: 767px" width="76%"><SPAN id="textoCabecera" 
+class=Cabecera>&nbsp;&nbsp;&nbsp;&nbsp; <I><FONT face="Times New Roman" 
+size=5>PAC</FONT></I>&nbsp;Portal de Atención a Clientes. &nbsp;&nbsp;&nbsp;&nbsp;</SPAN>&nbsp;&nbsp; 
+
+</td> 
+<td class=Bloque width="110" align="center"> 
+<span style="color:navy; font-size: xx-small; font-weight: bold; text-align: right; "> 
+|<A href="./principal.htm" target=mainFrame style="color:navy; cursor: pointer;">Inicio </A> 
+
+|<A href="./ayuda.do" target="_blank" style="color:navy; cursor: pointer;">Ayuda</A> 
+
+|<A href="./logOut.do" target=_parent style="color:navy; cursor: pointer;">Salir</A>|</span> 
+
+
+</TD> 
+</TR> 
+</TBODY> 
+</TABLE> 
+<TABLE class=menu width="100%" align=center height="32"> 
+<TBODY> 
+<TR> 
+
+<TD width="100%" valign="top"> 
+
+<iframe src="/MensajesWeb/regiones/mensajes.htm?region=R00" FRAMEBORDER="0" align="top" marginheight="0" marginwidth="0" SCROLLING="no" height="25px" width="100%" ></iframe> 
+
+
+</TD> 
+</TR> 
+</TBODY> 
+</TABLE> 
+
+</BODY> 
+</HTML> 
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'00000',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='00000000='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

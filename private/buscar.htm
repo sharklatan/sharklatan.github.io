@@ -1,0 +1,150 @@
+
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html> 
+<head>  
+	<title>Busqueda de solicitudes de portabilidad</title>
+	<LINK rel="stylesheet" href="./css/f1.css" type="text/css">
+	<SCRIPT type="text/javascript" src="./js/jquery-1.2.3.pack.js"></SCRIPT>
+	<script type='text/javascript' src='./js/jquery.form.js' ></script>
+	<style type="text/css">@import url(./css/calendar-blue.css);</style>
+	<script type="text/javascript" src='./js/jscalendar/calendar_stripped.js'></script>
+	<script type="text/javascript" src='./js/jscalendar/calendar-es.js'></script>
+	<script type="text/javascript" src='./js/jscalendar/calendar-setup_stripped.js'></script>
+	<script type='text/javascript' src='./js/portInt/buscaSolicitud.js' ></script>
+
+	
+	<!-- Para el grid -->
+	<link rel="stylesheet" type="text/css" href="./css/flexigrid/flexigrid.css">
+	<script type="text/javascript" src="./js/flexigrid.pack.js"></script>
+	<script>
+	  function cargaPagina(){
+	  	// Convirtiendo la forma a ajax
+		var options = {
+			target : '#divBuscaSolicitud',
+			success: function(data){
+				$("#divHistoricoEstatus").html("");
+				document.getElementById("divBuscaSolicitud").style.visibility="visible";
+				//document.frmBuscaSolicitud.btnSubmit.disabled=false;
+				$('#btnSubmit').removeAttr('disabled');
+			}
+		};
+		$('#frmBuscaSolicitud').ajaxForm(options);
+		//Valida si la busqeuda es filtrada
+		idEstatus = '';
+		ctrEstatusBloquear();
+		//Recuperando parametros de la session
+	  	//Si es rebusqeuda se rebusca
+	  	
+	  }
+	  
+	  function recuperaBusqueda(){
+  		var opcionSel = "";
+		if(opcionSel == "idCop"){
+			document.frmBuscaSolicitud.chkCriterio[0].checked=true;
+			document.getElementById("idCop").value="";
+		}else if(opcionSel == "telefono"){
+			document.frmBuscaSolicitud.chkCriterio[1].checked=true;
+			document.getElementById("telefono").value="";
+		} 
+  		document.getElementById("btnSubmit").click();
+	  }
+	</script>
+	
+</head>
+<body onload="cargaPagina()" >
+
+<form action="./buscaSolicitud.do" method="POST" target="#divBuscaSolicitud"
+	name="frmBuscaSolicitud" id="frmBuscaSolicitud">
+
+	<TABLE width="100%" border="0" cellpadding="0" cellspacing="0">
+	<TR valign="top" class='Cabecera' 
+			style="border-bottom-width: 2px; border-bottom-style: solid; 
+			border-bottom-color: #4d7097;">
+		<TD>
+				&nbsp;&nbsp;B&uacute;squeda de portaciones.
+			<span class="txtSumNormal" id="divLoading" style="display: none;">
+				<img src="./imagenes/loading.gif"/> Buscando infomaci&oacute;n &nbsp;&nbsp; </span>								
+		</TD>				
+	</TR>
+</TABLE>
+	
+<table id="tablaForm">
+	<tr valign="top"><td>
+		<table class="txtSumNormal" cellpadding="1" cellspacing="0">
+			<tr height="10">
+				<td><input type="radio" name="chkCriterio" value="idCop" 
+					id="chkIdCop" checked onClick="checaRadio('chkIdCop')" /> </td>
+				<td>ID Portabilidad</td>
+				<td><input name="idCop" id="idCop" size="20" class="InputB" onClick="checaRadio('chkIdCop')"></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="chkCriterio" value="telefono" 
+					id="chkTelefono" onClick="checaRadio('chkTelefono')"/> </td>
+				<td>Tel&eacute;fono</td>
+				<td><input name="telefono" id="telefono" maxlength="10" class="InputB" 
+					onClick="checaRadio('chkTelefono')" size="20"></td>
+			</tr>
+		</table>
+	</td><td>
+	</td></tr>
+	<tr>
+		<td colspan="2" align="right">
+			<input type="submit" id="btnSubmit" value="Buscar" class="botonActivo" onclick="verTablaResultado();">
+		</td>
+	</tr>
+</table>
+
+
+<div id="divBuscaSolicitud" style="visibility: hidden">
+
+
+
+
+
+
+
+
+
+	<center>
+	 <div class="BloqueErrorEspera">
+	 	<ul>
+	 		<li>
+	 		Ning&uacute;n registro encontrado
+	 		</li>
+	 	</ul>
+	 </div>
+	</center> 	
+
+
+</div>
+
+
+
+<!-- Div para mostrar el histórico de una solicitud  -->
+	<div id="divDetalleHistorico" style="position:absolute; top:25px; left 10px; width:850px; height:450px;
+	         background-color: white; border: solid 1px #5588dd; display:none;">
+	         
+		<table width="100%">
+			<tr>
+				<td class="Cabecera">&nbsp;Hist&oacute;rico de Solicitud</td>
+				<td align="right">
+					<img src="./imagenes/close.gif" alt="Cerrar" title="Cerrar" onClick="cierraDetalle()" style="cursor:pointer;">
+				</td>
+			</tr>
+		</table>     
+		
+		<!--  hr color="#5588dd" size="1" noshade="noshade"/-->
+		<div id="divHistoricoEstatus"></div>
+	</div>
+
+	
+</form>
+<DIV id="msg"></DIV>
+
+<FORM action="./detalleSolicitud.do" method="get" id="frmDetalle" name="frmDetalle">		
+	<INPUT type="hidden" name="idCopDet" id="idCopDet" />		
+</FORM>
+</body>
+</html>
+ 

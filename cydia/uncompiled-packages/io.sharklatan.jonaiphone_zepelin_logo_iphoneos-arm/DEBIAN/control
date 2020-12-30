@@ -1,0 +1,11 @@
+Package: io.sharklatan.jonaiphone.zepelin
+Name: JonaiPhone Logo
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Logo JonaiPhone 
+Depiction: http://sharklatan.github.io/cydia/depic/shark.html
+Author: Brandon JonaiPhone admin 
+Section: JonaiPhone
+Maintainer: shark
+Depends: firmware (>= 4.2), com.alexzielenski.zeppelin
+

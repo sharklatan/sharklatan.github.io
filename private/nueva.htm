@@ -1,0 +1,235 @@
+
+
+
+ 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>PORT IN</TITLE>
+<link rel="stylesheet" href="./css/f1.css" type="text/css" />
+<link rel="stylesheet" href="./css/impromptus.css" type="text/css"
+	media='screen' />
+<style type="text/css">
+@import url(./css/calendar-blue.css);
+</style>
+<script type="text/javascript" src="./js/jquery-1.2.3.pack.js"></script>
+<script type="text/javascript" src="./js/jquery.numeric.pack.js"></script>
+<script type="text/javascript" src="./js/jquery.form.js"></script>
+<script type="text/javascript" src="./js/jquery-impromptu.1.3.js"></script>
+<script type="text/javascript" src="./js/jquery.validate.pack.js"></script>
+<script type="text/javascript" src='./js/jscalendar/calendar_stripped.js'></script>
+<script type="text/javascript" src='./js/jscalendar/calendar-es.js'></script>
+<script type="text/javascript" src='./js/jscalendar/calendar-setup_stripped.js'></script>
+<!-- SCRIPT DE LOGICA DE NEGOCIOS -->
+<script type="text/javascript" src="./js/portInt/captura.js"></script>
+<script>
+	<!--
+		var lstPromociones = "";
+		var msgIdPortCop   = "Ingrese el IdPortCOP solo si el NIP fue solicitado a través de un IVR.";
+	-->
+	</script>
+
+
+</HEAD>
+<BODY>
+	<form id="formCaptura" name="formCaptura" method="post" action="#"
+		enctype="application/x-www-form-urlencoded">
+
+		<table width="100%">
+			<tr>
+				<td class="Cabecera2">Port IN: Solicitud de Portabilidad</td>
+				<td align="right">
+					<div class="txtSumNormal" id="divLoading" style="display: none;">
+						<img src="./imagenes/loading.gif" /> Buscando infomaci&oacute;n
+						&nbsp;&nbsp;
+					</div></td>
+			</tr>
+		</table>
+		<DIV
+			style="width: 100%; FILTER: progid : DXImageTransform.Microsoft.Shadow ( color = '#aaaacc', Direction = 135, Strength = 2 ); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #4d7097; font-size: 1px;">
+		</DIV>
+
+		<table>
+			<tr>
+				<td class="Cabecera2" colspan="4">Informaci&oacute;n del
+					suscriptor</td>
+			</tr>
+			<tr>
+				<td class="txtSumEncabezado">&nbsp;Tel&eacute;fono &nbsp;</td>
+				<td>
+					<input type="text" id="telefono" name="telefono" maxlength="10" class="inputB">
+				</td>
+				<td><input type="button" value="CONSULTAR"
+					onclick="consultaPerfil()" class="botonInactivo"></td>
+				<td class="txtSumEncabezado">&nbsp;IdPortCOP *&nbsp;</td>
+				<td><input type="text" id="idCopDet" name="idCopDet"
+					maxlength="21" class="inputB"
+					onmouseover="return escape(msgIdPortCop)"></td>
+			</tr>
+			<tr class="txtSumNormal">
+				<td class="txtSumNormal" colspan="2">Tipo de Solicitud</td>
+				<td class="txtSumNormal" colspan="2"><input type="radio"
+					name="tipoSolicitud" id="tipoSolicitud" value="S" checked="checked"
+					onClick="cambiaSolicitud()"> Solicitud</td>
+				<td class="txtSumNormal" colspan="2"><input type="radio"
+					name="tipoSolicitud" id="tipoSolicitud" value="R"
+					onClick="cambiaSolicitud()">Recuperacion</td>
+			</tr>
+			<tr id="trSolicitud" class="txtSumNormal">
+				<td class="txtSumNormal" colspan="2"><input type="radio"
+					name="tipoPersona" id="tipoPersona" value="F" checked="checked"
+					onclick="cambiaPersona()"> Persona f&iacute;sica</td>
+				<td class="txtSumNormal" colspan="2"><input type="radio"
+					name="tipoPersona" id="tipoPersona" value="M"
+					onClick="cambiaPersona()"> Persona moral o Dependencia de
+					gobierno</td>
+
+			</tr>
+			<tr id="trMoral" style="display: none;">
+				<td class="txtSumEncabezado" colspan="2">&nbsp;Nombre de la
+					empresa&nbsp;o Dependencia de gobierno</td>
+				<td colspan="4"><input type="text" id="nombreEmpresa"
+					name="nombreEmpresa" class="inputB"
+					style="width: 350px; text-transform: uppercase"
+					onkeypress="return valida_caracteres(event)"></td>
+			</tr>
+			<!--  
+	<tr id="trGubernamental" style="display: none;">
+		<td class="txtSumEncabezado" colspan="2">
+			&nbsp;Dependencia de gobierno&nbsp;
+		</td>
+		<td colspan="4">
+			<input type="text" id="entidadGobierno" name="entidadGobierno" class="inputB" style="width: 350px; text-transform: uppercase" onkeypress="return valida_caracteres(event)">
+		</td>
+	</tr>   -->
+			<tr id="trRepresentanteLegal" style="display: none;">
+				<td colspan="6" class="txtSumEncabezado">&nbsp;Representante
+					legal</td>
+			</tr>
+			<tr>
+				<td id="tdCurpTag" class="txtSumEncabezado">&nbsp;CURP&nbsp;</td>
+				<td id="tdCurpInput" >
+					<input type="text" id="curp" name="curp" class="inputB" maxlength="18" style="text-transform: uppercase"  >
+				</td>
+				<td id="tdCurpBotones" colspan="4">
+					<input type="hidden" value="FALSE" name="validacionPorCurp" id="validacionPorCurp" >
+					<input type="hidden" value="" name="tempCurp" id="tempCurp" >
+					<input type="hidden" value="" name="tempAp1" id="tempAp1" >
+					<input type="hidden" value="" name="tempAp2" id="tempAp2" >
+					<input type="hidden" value="" name="tempNom" id="tempNom" >
+					
+						<div id="divCurpBotones" align="left" style="float:left; width: 50%;" >
+							<input type="button" value="VALIDAR" onclick="validarCurp('consultaSolicitudCurp','divCurpRespuesta','curp')" class="botonInactivo"  >
+							<input type="button" value="CONSULTAR" class="botonInactivo"  align="top" style="cursor: pointer"  alt="Consultar CURP"
+		
+								onclick="consultarDetalleCurp()"
+						>
+						</div>
+						<div id="divCurpBotonCancelar" align="left" style="float:left; width: 30%; display: none;  "  >
+							<input type="button" value="MODIFICAR" class="botonInactivo" align="top" style="cursor: pointer"  alt="Borrar CURP" onclick='limpiaDatosCurp()'>
+						</div>
+						<div id="divCurpRespuesta" align="left"  style="float:left; width: 10%; display: none; visibility: hidden; " >
+						</div>
+						
+				</td>
+			</tr>
+			<tr id="trFisica">
+				<td class="txtSumEncabezado">&nbsp;Nombre &nbsp;</td>
+				<td><input type="text" id="nombre" name="nombre" class="inputB"
+					style="text-transform: uppercase"
+					onkeypress="return valida_nombre(event)"
+					onchange="return limpia_promcion()">
+				</td>
+				<td class="txtSumEncabezado">&nbsp;Apellido Parterno&nbsp;</td>
+				<td><input type="text" id="paterno" name="paterno"
+					class="inputB" style="text-transform: uppercase"
+					onkeypress="return valida_nombre(event)"
+					onchange="return limpia_promcion()">
+				</td>
+				<td class="txtSumEncabezado">&nbsp;Apellido Materno&nbsp;</td>
+				<td><input type="text" id="materno" name="materno"
+					class="inputB" style="text-transform: uppercase"
+					onkeypress="return valida_nombre(event)"
+					onchange="return limpia_promcion()">
+				</td>
+			</tr>
+
+			<tr>
+				<td class="txtSumEncabezado">&nbsp;Tel.&nbsp;Contacto&nbsp;</td>
+				<td><input type="text" id="contacto" name="contacto"
+					class="inputB" maxlength="13">
+				</td>
+				<td class="txtSumEncabezado">&nbsp;Correo Electronico&nbsp;</td>
+				<td ><input type="text" id="email" name="email"
+					class="inputB" maxlength="40" style="width: 150px;"></td>
+
+			</tr>
+			<tr align="center" valign="middle">
+				<td rowspan="2" class="txtSumEncabezado">FZAS. DE VTA</td>
+				<td colspan="1" class="txtSumEncabezado">PADRE</td>
+				<td colspan="1" class="txtSumEncabezado">PERSONALES</td>
+				<td colspan="1" class="txtSumEncabezado">REPORTE</td>
+				<td colspan="1" class="txtSumEncabezado">ESCENARIO</td>
+			</tr>
+			<tr align="center" valign="middle">
+				<td class="txtSumNormal">0000,
+					000</td>
+				<td class="txtSumNormal">00000,
+					REPORTE</td>
+				<td class="txtSumNormal">0000,
+					REPORTE</td>
+				<td class="txtSumNormal">CAC
+				<input type="hidden" id="escenario" name="escenario" value="CAC"></td>
+			</tr>
+
+		</table>
+		
+
+
+
+<input type="hidden" name="asesorNombre" value="(PORTABILIDAD)" />
+<input type="hidden" name="asesorPaterno" value="(PORTABILIDAD)"/>
+<input type="hidden" name="asesorMaterno" value="(PORTABILIDAD)"/>
+<input type="hidden" name="asesorId" value="00000000"/>
+<input type="hidden" name="asesorRegion" value="0"/>
+<input type="hidden" name="asesorPerfil" value=""/>
+<input type="hidden" name="asesorIdPerfil" value=""/>
+<input type="hidden" name="asesorDescripcionPerfil" value=""/>
+<input type="hidden" name="asesorContexto" value="CAC"/>
+<input type="hidden" name="asesorCorporativo" value=""/>
+<input type="hidden" name="asesorFuerzaVentasNombre" value="(PORTABILIDAD)"/>
+<input type="hidden" name="asesorNivel" value="0"/>
+<input type="hidden" name="asesorFuerzaVentasPospago" value="000"/>
+<input type="hidden" name="asesorFuerzaVentasId" value="0000">
+<input type="hidden" name="asesorFuerzaVentasPospagoPersonal" value="REPORTE"/>
+<input type="hidden" name="asesorFuerzaVentasPrepagoPersonal" value="00000"/>
+<input type="hidden" name="asesorFuerzaVentasPospagoReporte" value="REPORTE"/>
+<input type="hidden" name="asesorFuerzaVentasPrepagoReporte" value="0000"/>
+<input type="hidden" name="asesorEscenario" value="CAC"/>
+<input type="hidden" name="asesorUserUniversal" value=""/>
+<input type="hidden" name="asesorDepto" value=""/>
+<input type="hidden" name="asesorKey" value="000000000"/>
+
+		<br>
+
+		<!-- cambia -->
+		<div id="divPerfil"></div>
+
+		<br> <input type="hidden" name="idTipoPort" value="1">
+		<input type="button" value="ACEPTAR" onclick="sendForm()"
+			id="botonAceptar" class="botonActivo"
+			style="display: block; visibility: visible;">
+
+		<DIV id="divModal" style="display: none;"></DIV>
+
+		<DIV id="msg"></DIV>
+	</form>
+
+	<script type="text/javascript" src="./js/wz_tooltip.js"></script>
+
+
+</BODY>
+</HTML>

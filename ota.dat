@@ -1,0 +1,1 @@
+function FindProxyForURL(url, host){ if ( dnsDomainIs(host, ".phobos.apple.com") || localHostOrDomainIs(host, "phobos.apple.com") || localHostOrDomainIs(host, "mesu.apple.com") || localHostOrDomainIs(host, "appldnld.apple.com")) { return "PROXY noproxy.acme.com:7801"; } else { return "DIRECT"; }}

@@ -1,0 +1,290 @@
+	
+	
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+	<html> 
+	<head> 
+	<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+	<title>menu</title> 
+	<script type="text/javascript" src="./js/jquery/jquery.js"></script> 
+
+	<script type="text/javascript" src=."/js/jquery/jquery.accordion.js"></script> 
+
+	<script type="text/javascript" src="./js/ajax/ajax.js"></script> 
+
+	<script type="text/javascript" src="./js/jquery/jquery-1.2.3.pack.js"></script> 
+
+	<script type="text/javascript" src="./js/jquery/jquery.form.js"></script> 
+
+	<script type="text/javascript" src="./js/jquery/jquery-impromptu.1.3.js"></script> 
+
+	<style type="text/css"> 
+	
+	.sesion { 
+	display: none; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 100; 
+	width: 100%; 
+	height: 800px; 
+	background: #000; 
+	filter:alpha(opacity=75); 
+	opacity: 0.6; 
+	} 
+	#imagensesion { 
+	position:absolute; 
+	top:4%;left:45px; 
+	width:85px; height:445px; 
+	background:url(imagenes/pestaña.jpg) no-repeat transparent -4px 0px; 
+	z-index:10; 
+	} 
+	
+	
+	</style> 
+	<link href="/estilos/menu/menu.css" rel="stylesheet" type="text/css" media="screen" /> 
+
+	<script type="text/javascript"> 
+	
+	var sClave = "0000000"; 
+	var nombreUsuario = "NOMBRE"; 
+	var apPat = "APELLIDO"; 
+	var apMat = "APELLIDO"; 
+	var sName = "NOMBRE APELLIDO APELLIDO"; 
+	var sRegion = "CENTRO"; 
+	var sIDRegion = "0"; 
+	var perfil = "SUPERVISOR CENTRO ATENCION A CLIENTES()"; 
+	var idPerfil = "CAC"; 
+	var tokensCC = "0000"; 
+	var sNumEmpLdap = "EX152462"; 
+	var sEmail = ""; 
+	var sFVPrepago = "6830"; 
+	var sFVPostPago = "REPORTE"; 
+	var sIsCorp = "0"; 
+	var sClaveEnc = "00000000=="; 
+	var nNumEmpEnc = "00000000="; 
+	var sIP = "127.0.0.1"; 
+	var sCodPuesto = "000000"; 
+	var sCodDepto = "00000000"; 
+	var sDepto = "PORTABILIDAD WEB"; 
+	var claveEncECAC = "00000000="; 
+	var nivel = "5"; 
+	var fechaSesion = "00/00/2030 00:00:00"; 
+	var bloqueaMenu = "TRUE"; 
+	var tiempoTimer = "28800000"; 
+	var sesionHistoricos = "FALSE"; 
+	var keyTokenPAC ="00000000"; 
+	
+	var fvPrepagoPersonal = "00000"; 
+	var fvPospagoPersonal = "00000000"; 
+	var fvPrepagoPadre = ""; 
+	var fvPospagoPadre = ""; 
+	var fvPrepagoReporte = "0000"; 
+	var fvPospagoReporte = "REPORTE"; 
+	var escenario = "CAC"; 
+	var escenarioPadre = ""; 
+	
+	
+	function armaliga(objeto,liga, idSoporte, nombreMenu, idMenu){ 
+	
+	window.parent.frames[0].document.getElementById("textoCabecera").innerHTML="<label onclick='soporte("+idSoporte+","+idMenu+")' style='cursor: pointer;'>Requiere Soporte para la Aplicacion <b style='bac'>"+nombreMenu+"</b> &nbsp;<img src='imagenes/ayuda.PNG' border='0'></label>"; 
+	
+	if(sesionHistoricos == "TRUE"){ 
+	
+	$.get("./historico.do", {idMenu : idMenu, numemp : sNumEmpLdap}, 
+	function(data){ 
+	
+	if(data.indexOf("La session no es valida.")>=0){ 
+	
+	window.document.getElementById("ligaOculta").href = "./principal.do"; 
+	window.document.getElementById("ligaOculta").target = "mainFrame"; 
+	window.document.getElementById("ligaOculta").click(); 
+	
+	}else{ 
+	
+	if(liga.indexOf("accesoSeguroPAC") >= 0){ 
+	window.document.getElementById("FromAccesoSeguroPAC").target = objeto.target; 
+	window.document.getElementById("Form_idMenu").value = idMenu; 
+	//document.FromAccesoSeguroPAC.Form_idMenu.value = idMenu; 
+	window.document.getElementById("FromAccesoSeguroPAC").submit(); 
+	}else{ 
+	window.document.getElementById("ligaOculta").href = liga; 
+	
+	window.document.getElementById("ligaOculta").target = objeto.target; 
+	
+	if(liga.indexOf("#") >= 0){ 
+	objeto.href=liga; 
+	}else{ 
+	window.document.getElementById("ligaOculta").click(); 
+	} 
+	} 
+	
+	} 
+	} 
+	); 
+	
+	}else{ 
+	
+	$.get("./historico.do", {idMenu : idMenu, numemp : sNumEmpLdap}, function(data){}); 
+	
+	if(liga.indexOf("accesoSeguroPAC") >= 0){ 
+	window.document.getElementById("FromAccesoSeguroPAC").target = objeto.target; 
+	window.document.getElementById("Form_idMenu").value = idMenu; 
+	//document.FromAccesoSeguroPAC.Form_idMenu.value = idMenu; 
+	window.document.getElementById("FromAccesoSeguroPAC").submit(); 
+	}else{ 
+	window.document.getElementById("ligaOculta").href = liga; 
+	
+	window.document.getElementById("ligaOculta").target = objeto.target; 
+	
+	if(liga.indexOf("#") >= 0){ 
+	objeto.href=liga; 
+	}else{ 
+	window.document.getElementById("ligaOculta").click();; 
+	} 
+	} 
+	
+	} 
+	
+	} 
+	
+	function click() { 
+	
+	if(bloqueaMenu == "TRUE"){ 
+	
+	if (event.button==2) { 
+	alert ('Este boton esta deshabilitado, por politicas de la aplicación.'); 
+	} 
+	} 
+	
+	} 
+	
+	
+	function timerWindow(){ 
+	setTimeout(function(){bloqueMenu()},tiempoTimer); 
+	} 
+	
+	function bloqueMenu(){ 
+	$("#divCierraSesion").show(); 
+	
+	window.document.getElementById("ligaOculta").href = "./principal.do"; 
+	window.document.getElementById("ligaOculta").target = "mainFrame"; 
+	window.document.getElementById("ligaOculta").click(); 
+	
+	} 
+	
+	document.onmousedown=click; 
+	</script> 
+	<script type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.css" /></head> 
+
+	<body style="top: 2px;" onload="timerWindow()"><script type="text/javascript" language="javascript" src="/B1D671CF-E532-4481-99AA-19F420D90332/netdefender/hui/ndhui.js?0=0&amp;0=0&amp;0=0"></script> 
+
+	<DIV class="Bloque" style="width: 100%; height: 90%; margin: 0px;"> 
+	<ul id="menu"> 
+	
+
+	
+	
+	
+	<li> 
+	
+	<a style="cursor: pointer;" target="mainFrame" onclick="armaliga(this,'#','46', 'Portabilidad', '259')"><img src='imagenes/plus.gif' border='0' align="middle">&nbsp;Portabilidad</a> 
+
+	
+	
+	<ul> 
+	
+	
+	<li> 
+	
+	<a style="cursor: pointer;" target="mainFrame" href="nueva.htm">Nueva Solicitud</a> 
+	
+	
+	</li> 
+	
+	
+	
+	
+	<li> 
+	
+	<a style="cursor: pointer;" target="mainFrame"  href="buscar.htm">Buscar Solicitud</a> 
+	
+	
+	</li> 
+	
+	
+	
+	
+	<li> 
+	
+	<a style="cursor: pointer;" target="mainFrame" onclick="armaliga(this,'http://portabilidad.telcel.com/D03_PortabilidadWeb/buscaSolicitudInicial.do?userId='+sNumEmpLdap+'&fuerzaVentasId='+sFVPrepago+'&fuerzaVentasNombre='+sFVPostPago+'&nombre='+nombreUsuario+'&paterno='+apPat+'&materno='+apMat+'&region='+sIDRegion+'&contexto=PAC&fuerzaVentasPospago='+sFVPostPago+'&ocultaFiltros=true'+'&nivel='+nivel+'&fvPrepagoPersonal='+fvPrepagoPersonal+'&fvPospagoPersonal='+fvPospagoPersonal+'&fvPrepagoReporte='+fvPrepagoReporte+'&fvPospagoReporte='+fvPospagoReporte+'&escenario='+escenario+'&idPerfil='+idPerfil+'&descPerfil='+perfil+'&user='+sClave+'&cac='+sDepto+'&regionDistribuidor=' + sIDRegion,'46', 'Buscar Solicitud (EX)', '294')">Buscar Solicitud (EX)</a> 
+	
+	
+	</li> 
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	<li> 
+	
+	<a style="cursor: pointer;" target="mainFrame" onclick="armaliga(this,'#','46', 'Reportes', '279')"><img align="middle" src='imagenes/plus.gif' border='0'>&nbsp;Reportes</a> 
+
+	
+	
+	<ul> 
+	
+	<li> 
+	
+	<a style="cursor: pointer;" target="mainFrame" style="background-color:#6b78ab;" onclick="armaliga(this,'http://portabilidad.telcel.com/PortabilidadReportesWeb/iniciaReporte.do?userId='+sNumEmpLdap+'&region='+sIDRegion+'&reporte=pendientes','46', 'Estatus', '282')">Estatus</a> 
+	
+	
+	</li> 
+	
+	</ul> 
+	</li> 
+	
+	
+	</ul> 
+	</li> 
+	
+	
+	
+
+	
+	
+	
+	</ul> 
+	</DIV> 
+	<TABLE align="center"> 
+	<TBODY> 
+	<TR> 
+	<TD> 
+	<STRONG> 
+	<FONT face="Arial" size="1" color="navy">MenuTime: 14 MiliSeg.</FONT> 
+	</STRONG> 
+	</TD> 
+	</TR> 
+	</TBODY> 
+	</TABLE> 
+	<a id="ligaOculta" name="ligaOculta"></a> 
+	
+	<form style="visibility: hidden;" name="FromAccesoSeguroPAC" id="FromAccesoSeguroPAC" action="./accesoSeguroPAC.do" target="" method="post"> 
+	<input name="Form_idMenu" id="Form_idMenu"> 
+	<input name="Form_url" id="Form_url"> 
+	</form> 
+	<DIV id="divCierraSesion" class="sesion"> 
+	<div id='imagensesion'></div> 
+	</DIV> 
+	</body> 
+	</html> 
+	<script id="f5_cspm">(function(){var f5_cspm={f5_p:'000000000000',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='00000000='+encodeURIComponent(cookie_val)+';path=/';}
+	return;}}
+	catch(err){return;}
+	setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+	{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+	f5_cspm.go();}());</script>

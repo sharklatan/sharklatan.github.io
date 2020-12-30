@@ -1,0 +1,9 @@
+Origin: Shark Repo
+Label: JonaiPhone & Shark Repo
+Suite: stable
+Codename: stable
+Version: 4.7-5
+Support: http://sharklatan.com/cydia/info.html?id=*
+Architecture: iphoneos-arm
+Components: main
+Description: JonaiPhone & Shark Repo
